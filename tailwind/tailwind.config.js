@@ -39,8 +39,9 @@ module.exports = {
 				orange: {
 					telesistema: '#FF7A00',
 				},
-				darkBrown: {
-					700: '#321B0A'
+				brown: {
+					200: '#F0E1D6',
+					400: '#663815',
 				},
 				green: {
 				},
@@ -48,6 +49,7 @@ module.exports = {
 					telesistema: '#00668F',
 					50: '#00AEE6',
 					100: '#EEF2FA',
+					600: '#12254A',
 					900: '#070F14'
 				},
 				lightBlue: {

@@ -16,6 +16,13 @@ const inputSearch = document.getElementById('input-search');
 const inputSearchBar = document.getElementById('search-bar');
 const searchToggler = document.getElementById('search-toggler');
 const closeSearchBtn = document.getElementById('search-close');
+const radioOverlay = document.getElementById('radio-overlay');
+const radioOverlayToggle = document.getElementById('radio-overlay-toggler');
+
+//close overlay radio
+radioOverlayToggle.onclick = function () {
+  radioOverlay.classList.add('hidden');
+}
 
 //input search funtion
 searchToggler.onclick = function () {
@@ -178,3 +185,32 @@ document.querySelectorAll('.tarot-component').forEach(component => {
   moreText.style.display = 'none';
   ellipsis.style.display = 'inline';
 });
+
+
+// programs filter
+const filterSelect = document.getElementById('filterSelect');
+const sections = document.querySelectorAll('.section-item');
+
+// Aseguramos que la opción 'all' esté seleccionada al cargar la página
+filterSelect.value = 'all';
+
+// Mostrar todas las secciones al cargar la página
+sections.forEach(section => section.classList.add('active'));
+
+// Filtro de secciones al cambiar el dropdown
+filterSelect.addEventListener('change', () => {
+  const filter = filterSelect.value;
+
+  sections.forEach(section => {
+    if (filter === 'all') {
+      section.classList.add('active');
+    } else {
+      if (section.classList.contains(filter)) {
+        section.classList.add('active');
+      } else {
+        section.classList.remove('active');
+      }
+    }
+  });
+});
+

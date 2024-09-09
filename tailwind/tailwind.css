@@ -43,3 +43,33 @@
   content: ' ';
   font-size: 20px;
 }
+
+
+.section-item {
+  display: none;
+}
+
+.section-item.active {
+  display: grid;
+}
+
+.custom-select{
+  position: relative;
+  display: inline-block;
+  width: 200px;
+}
+
+
+.custom-select select {
+  appearance: none;
+  width: 100%;
+  font-size: 1.15rem;
+  padding: 8px 10px;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.custom-select option {
+  border-bottom: 1px solid red;
+}

@@ -54,3 +54,8 @@
 .entry-content > .alignright {
 	@apply float-right ml-8;
 }
+
+
+.dropdown:focus-within .dropdown-menu {
+  display:block
+}

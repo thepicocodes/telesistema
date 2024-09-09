@@ -2,7 +2,7 @@
 
 /**
  *
- * Template Name: Home Page
+ * Template Name: Programas Page
  *
  * @package telesistema
  */
@@ -22,126 +22,239 @@ get_header();
       <div class="w-full h-full bg-[#D6CCFF]"></div>
     </div>
 
-    <section class="rounded-lg relative w-full h-[560px] lg:h-[300px]">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/img-03.png" alt="" class="rounded-lg block w-full h-full object-cover">
-      <div class="rounded-[32px] w-max py-1 px-6 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white bg-blue-50">
-        <div class="flex flex-row items-center gap-x-4">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-white" viewBox="0 0 384 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-            <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
-          </svg>
-          <p class="text-body-b">Ver programa en vivo</p>
-        </div>
-      </div>
-    </section>
-    <!--  -->
-    <section class="mt-10">
-      <div class="mt-5 grid grid-cols-1 md:grid-cols-[1fr_300px] gap-5">
+    <div>
+      <div class="flex flex-row items-center gap-x-2.5">
+        <h3 class="text-h5 text-blue-telesistema">Programas</h3>
 
-        <a href="#" class="relative block w-full h-[300px] lg:h-[460px] bg-white">
-          <article class="relative w-full h-full bg-gradient-to-t from-overlay-100 to-overlay-0">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="" class="absolute top-0 left-0 w-full h-full ">
-            <div class="rounded-lg h-full relative z-[1] p-5 lg:p-10 flex flex-col justify-end text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
-              <p class="mt-2 text-m-b lg:text-h4">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-              <div class="mt-2 text-xs text-lightBlue-100">
-                Victor Santana • 08/04/2024 14:51
+        <div class="flex items-center gap-x-1 text-orange-telesistema">
+          <div class="relative inline-block text-left dropdown bg-white">
+            <button class="inline-flex items-center justify-center gap-x-1 w-full px-4 py-2 text-m-b"
+              type="button" aria-haspopup="true" aria-expanded="true" aria-controls="headlessui-menu-items-117">
+              <span>Todos</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-orange-telesistema" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+              </svg>
+            </button>
+            <div class="hidden dropdown-menu relative z-10 bg-white">
+              <div class="border border-[#E6E6E6] rounded-md absolute left-0 w-56 mt-2 origin-top-right divide-gray-100 bg-white" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
+                <div id="filterSelect" class="">
+                  <div class="border-b border-[#E6E6E6] text-gray-700 flex justify-between w-full px-4 py-2 text-sm leading-5" role="menuitem">Todos</div>
+                  <div class="border-b border-[#E6E6E6] text-gray-700 flex justify-between w-full px-4 py-2 text-sm leading-5" role="menuitem">Información y opinión</div>
+                  <div class="border-b border-[#E6E6E6] text-gray-700 flex justify-between w-full px-4 py-2 text-sm leading-5" role="menuitem">Variedades</div>
+                  <div class="border-b border-[#E6E6E6] text-gray-700 flex justify-between w-full px-4 py-2 text-sm leading-5" role="menuitem">Infantil-Juvenil</div>
+                  <div class="text-gray-700 flex justify-between w-full px-4 py-2 text-sm leading-5" role="menuitem">Novelas</div>
+                </div>
               </div>
             </div>
-          </article>
-        </a>
-
-        <div class="mt-4 md:mt-0 grid gap-x-2 gap-y-4">
-          <a href="/" class="mid-block">
-            <article class="rounded-md border w-full grid grid-cols-[60%_40%] overflow-hidden h-[140px]">
-              <div class="content">
-                <div class="w-full py-4 px-2">
-                  <p class="lg:w-[16ch] mt-2 text-body-b text-blueLight-900">Son una forma emocionante de poner a prueba el cuerpo y la mente</p>
-                </div>
-              </div>
-              <div class="image w-40%" style="overflow: hidden; position: relative">
-                <div class="h-full">
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/img-02.png" alt="" class="w-full h-full object-cover">
-                </div>
-              </div>
-            </article>
-          </a>
-          <a href="/" class="mid-block">
-            <article class="rounded-md border w-full grid grid-cols-[60%_40%] overflow-hidden h-[140px]">
-              <div class="content">
-                <div class="w-full py-4 px-2">
-                  <p class="lg:w-[16ch] mt-2 text-body-b text-blueLight-900">Son una forma emocionante de poner a prueba el cuerpo y la mente</p>
-                </div>
-              </div>
-              <div class="image w-40%" style="overflow: hidden; position: relative">
-                <div class="h-full">
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/img-02.png" alt="" class="w-full h-full object-cover">
-                </div>
-              </div>
-            </article>
-          </a>
-          <a href="/" class="mid-block">
-            <article class="rounded-md border w-full grid grid-cols-[60%_40%] overflow-hidden h-[140px]">
-              <div class="content">
-                <div class="w-full py-4 px-2">
-                  <p class="lg:w-[16ch] mt-2 text-body-b text-blueLight-900">Son una forma emocionante de poner a prueba el cuerpo y la mente</p>
-                </div>
-              </div>
-              <div class="image w-40%" style="overflow: hidden; position: relative">
-                <div class="h-full">
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/img-02.png" alt="" class="w-full h-full object-cover">
-                </div>
-              </div>
-            </article>
-          </a>
+          </div>
         </div>
       </div>
+    </div>
 
-
-      <div class="mt-10">
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-5">
-
-          <div class="relative h-[300px]">
-            <a href="#" class="relative block w-full h-full bg-white">
-              <article class="relative w-full h-[300px] bg-gradient-to-t from-overlay-100 to-overlay-0">
-                <div class="py-2 px-4 absolute top-2.5 right-2.5 z-[2] ">
-                  <span class="drop-shadow-md rounded-full w-[34px] h-[34px] flex items-center justify-center bg-blue-50">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-2 fill-white" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                      <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
-                    </svg>
-                  </span>
+    <section class="">
+      <div class="mt-10 grid lg:grid-cols-[1fr_320px] gap-x-6">
+        <div>
+          <!-- all -->
+          <div class="section-item all grid md:grid-cols-2 mb-10 gap-y-6 gap-x-5 lg:justify-start">
+            <a href="#" class="group relative block w-full h-full bg-white">
+              <article class="relative w-full h-[342px] bg-gradient-to-t from-overlay-100 to-overlay-0">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/img-06.png" alt="" class="absolute top-0 left-0 w-full h-full">
+                <div class="rounded-lg w-full h-full relative z-[1] p-4 flex flex-col justify-between items-center text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
+                  <span class="rounded-full py-2 px-4 text-s font-extrabold font-lato bg-[#FF0000]">En vivo</span>
+                  <div class="self-start">
+                    <h5 class="text-m-b">telenoticias: Hora cero</h5>
+                    <div class="opacity-0 group-hover:opacity-100 mt-4 flex flex-row items-center gap-x-1 font-normal">
+                      ver contenido
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-3 fill-white" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                      </svg>
+                    </div>
+                  </div>
                 </div>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="" class="rounded-lg absolute top-0 left-0 w-full h-full object-cover">
-                <div class="rounded-lg h-full relative z-[1] p-4 flex flex-col justify-end text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
-                  <p class="mt-2 text-m-b">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-                  <div class="mt-2 text-xs text-lightBlue-100">
-                    Victor Santana • 08/04/2024 14:51
+              </article>
+            </a>
+
+            <a href="#" class="group relative block w-full h-full bg-white">
+              <article class="relative w-full h-[342px] bg-gradient-to-t from-overlay-100 to-overlay-0">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/img-06.png" alt="" class="absolute top-0 left-0 w-full h-full">
+                <div class="rounded-lg w-full h-full relative z-[1] p-4 flex flex-col justify-between items-center text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
+                  <span class="rounded-full py-2 px-4 text-s font-extrabold font-lato bg-[#FF0000]">En vivo</span>
+                  <div class="self-start">
+                    <h5 class="text-m-b">telenoticias: Hora cero</h5>
+                    <div class="opacity-0 group-hover:opacity-100 mt-4 flex flex-row items-center gap-x-1 font-normal">
+                      ver contenido
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-3 fill-white" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </a>
+
+            <a href="#" class="group relative block w-full h-full bg-white">
+              <article class="relative w-full h-[342px] bg-gradient-to-t from-overlay-100 to-overlay-0">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/img-06.png" alt="" class="absolute top-0 left-0 w-full h-full">
+                <div class="rounded-lg w-full h-full relative z-[1] p-4 flex flex-col justify-between items-center text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
+                  <span class="rounded-full py-2 px-4 text-s font-extrabold font-lato bg-[#FF0000]">En vivo</span>
+                  <div class="self-start">
+                    <h5 class="text-m-b">telenoticias: Hora cero</h5>
+                    <div class="opacity-0 group-hover:opacity-100 mt-4 flex flex-row items-center gap-x-1 font-normal">
+                      ver contenido
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-3 fill-white" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </a>
+
+            <a href="#" class="group relative block w-full h-full bg-white">
+              <article class="relative w-full h-[342px] bg-gradient-to-t from-overlay-100 to-overlay-0">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/img-06.png" alt="" class="absolute top-0 left-0 w-full h-full">
+                <div class="rounded-lg w-full h-full relative z-[1] p-4 flex flex-col justify-between items-center text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
+                  <span class="rounded-full py-2 px-4 text-s font-extrabold font-lato bg-[#FF0000]">En vivo</span>
+                  <div class="self-start">
+                    <h5 class="text-m-b">telenoticias: Hora cero</h5>
+                    <div class="opacity-0 group-hover:opacity-100 mt-4 flex flex-row items-center gap-x-1 font-normal">
+                      ver contenido
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-3 fill-white" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </a>
+
+            <a href="#" class="group relative block w-full h-full bg-white">
+              <article class="relative w-full h-[342px] bg-gradient-to-t from-overlay-100 to-overlay-0">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/img-06.png" alt="" class="absolute top-0 left-0 w-full h-full">
+                <div class="rounded-lg w-full h-full relative z-[1] p-4 flex flex-col justify-between items-center text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
+                  <span class="rounded-full py-2 px-4 text-s font-extrabold font-lato bg-[#FF0000]">En vivo</span>
+                  <div class="self-start">
+                    <h5 class="text-m-b">telenoticias: Hora cero</h5>
+                    <div class="opacity-0 group-hover:opacity-100 mt-4 flex flex-row items-center gap-x-1 font-normal">
+                      ver contenido
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-3 fill-white" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </a>
+
+            <a href="#" class="group relative block w-full h-full bg-white">
+              <article class="relative w-full h-[342px] bg-gradient-to-t from-overlay-100 to-overlay-0">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/img-06.png" alt="" class="absolute top-0 left-0 w-full h-full">
+                <div class="rounded-lg w-full h-full relative z-[1] p-4 flex flex-col justify-between items-center text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
+                  <span class="rounded-full py-2 px-4 text-s font-extrabold font-lato bg-[#FF0000]">En vivo</span>
+                  <div class="self-start">
+                    <h5 class="text-m-b">telenoticias: Hora cero</h5>
+                    <div class="opacity-0 group-hover:opacity-100 mt-4 flex flex-row items-center gap-x-1 font-normal">
+                      ver contenido
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-3 fill-white" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                      </svg>
+                    </div>
                   </div>
                 </div>
               </article>
             </a>
           </div>
+        </div>
 
-          <div class="relative h-[300px]">
-            <a href="#" class="relative block w-full h-full bg-white">
-              <article class="relative w-full h-[300px] bg-gradient-to-t from-overlay-100 to-overlay-0">
-                <div class="py-2 px-4 absolute top-2.5 right-2.5 z-[2] ">
-                  <span class="drop-shadow-md rounded-full w-[34px] h-[34px] flex items-center justify-center bg-blue-50">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-2 fill-white" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                      <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
-                    </svg>
-                  </span>
-                </div>
-                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="" class="rounded-lg absolute top-0 left-0 w-full h-full object-cover">
-                <div class="rounded-lg h-full relative z-[1] p-4 flex flex-col justify-end text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
-                  <p class="mt-2 text-m-b">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-                  <div class="mt-2 text-xs text-lightBlue-100">
-                    Victor Santana • 08/04/2024 14:51
-                  </div>
-                </div>
-              </article>
-            </a>
+        <div>
+          <div class="w-full h-40 xl:h-[274px] mb-5 p-3 bg-[#F1F3F7]">
+            <div class="w-full h-full bg-[#D6CCFF]"></div>
           </div>
+          <!--  -->
+          <div>
+            <h3 class="text-xl-b text-blue-telesistema">Clima</h3>
+            <div class="rounded-lg mt-2 p-4 bg-blue-100">
+              <h4 class="mb-2 text-body-b text-blue-900 text-center">The United Kingdom...</h4>
+              <div class="border-t border-brown-200 flex flex-row gap-x-2 items-center pt-2">
+                <div class="border-r border-brown-200 pr-6">
+                  <p class="text-xl-b">28° C</p>
+                  <p>Nubes dispersas</p>
+                </div>
+                <div class="mx-auto">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/cloud.png" alt="US Flag" class="h-full">
+                </div>
+              </div>
+            </div>
 
-          <div class="p-4">
+            <div class="rounded-lg flex flex-row justify-between items-center mt-2 py-2 px-4 bg-blue-100">
+              <div class="text-s text-blue-900">Miércoles</div>
+              <img src="<?php echo get_template_directory_uri(); ?>/images/cloud.png" alt="US Flag" class="h-8">
+              <div class="text-s-b">
+                <span class="mr-4 text-s-b text-brown-400">27° C</span>
+                <span class="text-s-b text-blue-600">18° C</span>
+              </div>
+            </div>
+
+            <div class="rounded-lg flex flex-row justify-between items-center mt-2 py-2 px-4 bg-blue-100">
+              <div class="text-s text-blue-900">Miércoles</div>
+              <img src="<?php echo get_template_directory_uri(); ?>/images/cloud.png" alt="US Flag" class="h-8">
+              <div class="text-s-b">
+                <span class="mr-4 text-s-b text-brown-400">27° C</span>
+                <span class="text-s-b text-blue-600">18° C</span>
+              </div>
+            </div>
+
+            <div class="rounded-lg flex flex-row justify-between items-center mt-2 py-2 px-4 bg-blue-100">
+              <div class="text-s text-blue-900">Miércoles</div>
+              <img src="<?php echo get_template_directory_uri(); ?>/images/cloud.png" alt="US Flag" class="h-8">
+              <div class="text-s-b">
+                <span class="mr-4 text-s-b text-brown-400">27° C</span>
+                <span class="text-s-b text-blue-600">18° C</span>
+              </div>
+            </div>
+
+            <div class="rounded-lg mt-2 p-4 bg-blue-100">
+              <div class="flex flex-row items-center gap-x-2">
+                <h4 class="text-body-b text-blue-900">Punta Cana</h4>
+                <div class="mx-auto">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/cloud.png" alt="US Flag" class="h-full">
+                </div>
+                <div class="">
+                  <p class="text-xl-b">28° C</p>
+                  <p>Muy nuboso</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="rounded-lg mt-2 p-4 bg-blue-100">
+              <div class="flex flex-row items-center gap-x-2">
+                <h4 class="text-body-b text-blue-900">Santiago</h4>
+                <div class="mx-auto">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/cloud.png" alt="US Flag" class="h-full">
+                </div>
+                <div class="">
+                  <p class="text-xl-b">28° C</p>
+                  <p>Muy nuboso</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="rounded-lg mt-2 p-4 bg-blue-100">
+              <div class="flex flex-row items-center gap-x-2">
+                <h4 class="text-body-b text-blue-900">Samana</h4>
+                <div class="mx-auto">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/cloud.png" alt="US Flag" class="h-full">
+                </div>
+                <div class="">
+                  <p class="text-xl-b">28° C</p>
+                  <p>Muy nuboso</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+
+          <div class="mt-10">
             <div class="flex items-center border-b pb-2 mb-4">
               <img src="<?php echo get_template_directory_uri(); ?>/images/usd.png" alt="US Flag" class="h-6 mr-2">
               <h2 class="text-body-b font-bold">US Dólar</h2>
@@ -160,351 +273,17 @@ get_header();
               <p class="mt-1.5 text-body-b text-gray-100">Venta:<span class="font-normal text-black"> RD$ 59.80</span></p>
             </div>
           </div>
-
-
         </div>
       </div>
     </section>
 
-    <!-- add banner -->
-    <div class="w-full max-w-[752px] h-40 xl:h-[114px] mt-10 mx-auto p-3 bg-[#F1F3F7]">
-      <div class="w-full h-full bg-[#D6CCFF]"></div>
-    </div>
-
     <!--  -->
-    <section class="mx-auto mt-10">
-      <div class="">
-        <div class="flex justify-between items-center mb-4">
-          <h2 class="text-lg lg:text-h5 text-blue-telesistema">Información y Opinión</h2>
-          <a href="#" class="text-blue-50 flex items-center gap-x-2 text-m-b">
-            Ver más
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-50" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-              <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
-            </svg>
-          </a>
-        </div>
-
-        <!-- Swiper Container -->
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide !h-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative w-full !h-full">
-              <div class="w-full p-4 absolute bg-transparent bottom-4 text-white">
-                <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
-                <p class="text-xs mt-2">Lunes &#x2022; 08/04/2024</p>
-              </div>
-            </div>
-
-            <div class="swiper-slide !h-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 2" class="relative w-full !h-full">
-              <div class="w-full p-4 absolute bg-transparent bottom-4 text-white">
-                <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
-                <p class="text-xs mt-2">Lunes &#x2022; 08/04/2024</p>
-              </div>
-            </div>
-            <div class="swiper-slide !h-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 3" class="relative w-full !h-full">
-              <div class="w-full p-4 absolute bg-transparent bottom-4 text-white">
-                <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
-                <p class="text-xs mt-2">Lunes &#x2022; 08/04/2024</p>
-              </div>
-            </div>
-            <div class="swiper-slide !h-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 3" class="relative w-full !h-full">
-              <div class="w-full p-4 absolute bg-transparent bottom-4 text-white">
-                <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
-                <p class="text-xs mt-2">Lunes &#x2022; 08/04/2024</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-button-next !rounded-full !w-[60px] !h-[60px] !top-[30%] !bg-blue-100">
-            <svg xmlns="http://www.w3.org/2000/svg" class="!h-5 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-              <path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
-            </svg>
-          </div>
-          <div class="swiper-button-prev !rounded-full !w-[60px] !h-[60px] !top-[30%] !bg-blue-100">
-            <svg xmlns="http://www.w3.org/2000/svg" class="!h-5 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-              <path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
-            </svg>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- add banner -->
-    <div class="w-full max-w-[752px] h-40 xl:h-[114px] mt-10 mx-auto p-3 bg-[#F1F3F7]">
-      <div class="w-full h-full bg-[#D6CCFF]"></div>
-    </div>
-
-    <!--  -->
-    <section class="mx-auto mt-10">
-      <div class="">
-        <div class="flex justify-between items-center mb-4">
-          <h2 class="text-lg lg:text-h5 text-blue-telesistema">Avances de novelas</h2>
-          <a href="#" class="text-blue-50 flex items-center gap-x-2 text-m-b">
-            Ver más
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-50" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-              <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
-            </svg>
-          </a>
-        </div>
-
-        <!-- Swiper Container -->
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide !h-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative w-full !h-full">
-              <div class="w-full p-4 absolute bg-transparent bottom-4 text-white">
-                <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
-                <p class="text-xs mt-2">Lunes &#x2022; 08/04/2024</p>
-              </div>
-            </div>
-
-            <div class="swiper-slide !h-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 2" class="relative w-full !h-full">
-              <div class="w-full p-4 absolute bg-transparent bottom-4 text-white">
-                <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
-                <p class="text-xs mt-2">Lunes &#x2022; 08/04/2024</p>
-              </div>
-            </div>
-            <div class="swiper-slide !h-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 3" class="relative w-full !h-full">
-              <div class="w-full p-4 absolute bg-transparent bottom-4 text-white">
-                <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
-                <p class="text-xs mt-2">Lunes &#x2022; 08/04/2024</p>
-              </div>
-            </div>
-            <div class="swiper-slide !h-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 3" class="relative w-full !h-full">
-              <div class="w-full p-4 absolute bg-transparent bottom-4 text-white">
-                <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
-                <p class="text-xs mt-2">Lunes &#x2022; 08/04/2024</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-button-next !rounded-full !w-[60px] !h-[60px] !top-[30%] !bg-blue-100">
-            <svg xmlns="http://www.w3.org/2000/svg" class="!h-5 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-              <path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
-            </svg>
-          </div>
-          <div class="swiper-button-prev !rounded-full !w-[60px] !h-[60px] !top-[30%] !bg-blue-100">
-            <svg xmlns="http://www.w3.org/2000/svg" class="!h-5 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-              <path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
-            </svg>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- add banner -->
-    <div class="w-full max-w-[752px] h-40 xl:h-[114px] mt-10 mx-auto p-3 bg-[#F1F3F7]">
-      <div class="w-full h-full bg-[#D6CCFF]"></div>
-    </div>
-
-    <!--  -->
-    <section class="mx-auto mt-10">
-      <div class="">
-        <div class="flex justify-between items-center mb-4">
-          <h2 class="text-lg lg:text-h5 text-blue-telesistema">Variedades</h2>
-          <a href="#" class="text-blue-50 flex items-center gap-x-2 text-m-b">
-            Ver más
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-50" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-              <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
-            </svg>
-          </a>
-        </div>
-
-        <!-- Swiper Container -->
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide !h-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative w-full !h-full">
-              <div class="w-full p-4 absolute bg-transparent bottom-4 text-white">
-                <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
-                <p class="text-xs mt-2">Lunes &#x2022; 08/04/2024</p>
-              </div>
-            </div>
-
-            <div class="swiper-slide !h-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 2" class="relative w-full !h-full">
-              <div class="w-full p-4 absolute bg-transparent bottom-4 text-white">
-                <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
-                <p class="text-xs mt-2">Lunes &#x2022; 08/04/2024</p>
-              </div>
-            </div>
-            <div class="swiper-slide !h-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 3" class="relative w-full !h-full">
-              <div class="w-full p-4 absolute bg-transparent bottom-4 text-white">
-                <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
-                <p class="text-xs mt-2">Lunes &#x2022; 08/04/2024</p>
-              </div>
-            </div>
-            <div class="swiper-slide !h-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 3" class="relative w-full !h-full">
-              <div class="w-full p-4 absolute bg-transparent bottom-4 text-white">
-                <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
-                <p class="text-xs mt-2">Lunes &#x2022; 08/04/2024</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-button-next !rounded-full !w-[60px] !h-[60px] !top-[30%] !bg-blue-100">
-            <svg xmlns="http://www.w3.org/2000/svg" class="!h-5 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-              <path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
-            </svg>
-          </div>
-          <div class="swiper-button-prev !rounded-full !w-[60px] !h-[60px] !top-[30%] !bg-blue-100">
-            <svg xmlns="http://www.w3.org/2000/svg" class="!h-5 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-              <path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
-            </svg>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- add banner -->
-    <div class="w-full max-w-[752px] h-40 xl:h-[114px] mt-10 mx-auto p-3 bg-[#F1F3F7]">
-      <div class="w-full h-full bg-[#D6CCFF]"></div>
-    </div>
-
-    <!--  -->
-    <section class="mx-auto mt-10">
-      <div class="">
-        <div class="flex justify-between items-center mb-4">
-          <h2 class="text-lg lg:text-h5 text-blue-telesistema">Infantiles</h2>
-          <a href="#" class="text-blue-50 flex items-center gap-x-2 text-m-b">
-            Ver más
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-50" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-              <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
-            </svg>
-          </a>
-        </div>
-
-        <!-- Swiper Container -->
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide !h-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative w-full !h-full">
-              <div class="w-full p-4 absolute bg-transparent bottom-4 text-white">
-                <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
-                <p class="text-xs mt-2">Lunes &#x2022; 08/04/2024</p>
-              </div>
-            </div>
-
-            <div class="swiper-slide !h-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 2" class="relative w-full !h-full">
-              <div class="w-full p-4 absolute bg-transparent bottom-4 text-white">
-                <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
-                <p class="text-xs mt-2">Lunes &#x2022; 08/04/2024</p>
-              </div>
-            </div>
-            <div class="swiper-slide !h-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 3" class="relative w-full !h-full">
-              <div class="w-full p-4 absolute bg-transparent bottom-4 text-white">
-                <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
-                <p class="text-xs mt-2">Lunes &#x2022; 08/04/2024</p>
-              </div>
-            </div>
-            <div class="swiper-slide !h-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 3" class="relative w-full !h-full">
-              <div class="w-full p-4 absolute bg-transparent bottom-4 text-white">
-                <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
-                <p class="text-xs mt-2">Lunes &#x2022; 08/04/2024</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-button-next !rounded-full !w-[60px] !h-[60px] !top-[30%] !bg-blue-100">
-            <svg xmlns="http://www.w3.org/2000/svg" class="!h-5 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-              <path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
-            </svg>
-          </div>
-          <div class="swiper-button-prev !rounded-full !w-[60px] !h-[60px] !top-[30%] !bg-blue-100">
-            <svg xmlns="http://www.w3.org/2000/svg" class="!h-5 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-              <path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
-            </svg>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- add banner -->
-    <div class="w-full max-w-[752px] h-40 xl:h-[114px] mt-10 mx-auto p-3 bg-[#F1F3F7]">
-      <div class="w-full h-full bg-[#D6CCFF]"></div>
-    </div>
-
-    <!--  -->
-    <section class="mx-auto mt-10">
-      <div class="">
-        <div class="flex justify-between items-center mb-4">
-          <h2 class="text-lg lg:text-h5 text-blue-telesistema">Episodios anteriores</h2>
-          <a href="#" class="text-blue-50 flex items-center gap-x-2 text-m-b">
-            Ver más
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-50" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-              <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
-            </svg>
-          </a>
-        </div>
-
-        <!-- Swiper Container -->
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide !h-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative w-full !h-full">
-              <div class="w-full p-4 absolute bg-transparent bottom-4 text-white">
-                <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
-                <p class="text-xs mt-2">Lunes &#x2022; 08/04/2024</p>
-              </div>
-            </div>
-
-            <div class="swiper-slide !h-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 2" class="relative w-full !h-full">
-              <div class="w-full p-4 absolute bg-transparent bottom-4 text-white">
-                <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
-                <p class="text-xs mt-2">Lunes &#x2022; 08/04/2024</p>
-              </div>
-            </div>
-            <div class="swiper-slide !h-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 3" class="relative w-full !h-full">
-              <div class="w-full p-4 absolute bg-transparent bottom-4 text-white">
-                <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
-                <p class="text-xs mt-2">Lunes &#x2022; 08/04/2024</p>
-              </div>
-            </div>
-            <div class="swiper-slide !h-[300px] bg-white rounded-lg shadow-lg overflow-hidden">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 3" class="relative w-full !h-full">
-              <div class="w-full p-4 absolute bg-transparent bottom-4 text-white">
-                <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
-                <p class="text-xs mt-2">Lunes &#x2022; 08/04/2024</p>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-button-next !rounded-full !w-[60px] !h-[60px] !top-[30%] !bg-blue-100">
-            <svg xmlns="http://www.w3.org/2000/svg" class="!h-5 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-              <path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
-            </svg>
-          </div>
-          <div class="swiper-button-prev !rounded-full !w-[60px] !h-[60px] !top-[30%] !bg-blue-100">
-            <svg xmlns="http://www.w3.org/2000/svg" class="!h-5 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-              <path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
-            </svg>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- add banner -->
-    <div class="w-full max-w-[752px] h-40 xl:h-[114px] mt-10 mx-auto p-3 bg-[#F1F3F7]">
-      <div class="w-full h-full bg-[#D6CCFF]"></div>
-    </div>
-
-
-    <!--  -->
-
     <section class="mt-10">
       <div class="flex items-center justify-between">
         <h5 class="text-xl-b lg:text-h5 text-blue-telesistema">Noticias</h5>
         <a href="" class="flex items-center gap-x-2 font-bold text-blue-50">
           Ver más
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-text-blue-50" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-50" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
             <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
           </svg>
         </a>
@@ -513,7 +292,7 @@ get_header();
       <div class="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-5">
         <div class="mt-4 md:mt-0 grid gap-x-2 gap-y-4">
           <a href="/" class="mid-block">
-            <article class="rounded-md border border-gray-100 w-full grid grid-cols-[60%_40%]" style="overflow: hidden; height: 140px;">
+            <article class="rounded-md border w-full grid grid-cols-[60%_40%]" style="overflow: hidden; height: 140px;">
               <div class="content">
                 <div class="w-full py-4 px-2">
                   <p class="lg:w-[16ch] mt-2 text-body-b text-blueLight-900">Son una forma emocionante de poner a prueba el cuerpo y la mente</p>
@@ -528,7 +307,7 @@ get_header();
           </a>
 
           <a href="/" class="mid-block">
-            <article class="rounded-md border border-gray-100 w-full grid grid-cols-[60%_40%]" style="overflow: hidden; height: 140px;">
+            <article class="rounded-md border w-full grid grid-cols-[60%_40%]" style="overflow: hidden; height: 140px;">
               <div class="content">
                 <div class="w-full py-4 px-2">
                   <p class="lg:w-[16ch] mt-2 text-body-b text-blueLight-900">Son una forma emocionante de poner a prueba el cuerpo y la mente</p>
@@ -565,7 +344,7 @@ get_header();
 
         <div class="mt-4 md:mt-0 grid gap-x-2 gap-y-4">
           <a href="/" class="mid-block">
-            <article class="rounded-md border border-gray-100 w-full grid grid-cols-[60%_40%]" style="overflow: hidden; height: 140px;">
+            <article class="rounded-md border w-full grid grid-cols-[60%_40%]" style="overflow: hidden; height: 140px;">
               <div class="content">
                 <div class="w-full py-4 px-2">
                   <p class="lg:w-[16ch] mt-2 text-body-b text-blueLight-900">Son una forma emocionante de poner a prueba el cuerpo y la mente</p>
@@ -580,7 +359,7 @@ get_header();
           </a>
 
           <a href="/" class="mid-block">
-            <article class="rounded-md border border-gray-100 w-full grid grid-cols-[60%_40%]" style="overflow: hidden; height: 140px;">
+            <article class="rounded-md border w-full grid grid-cols-[60%_40%]" style="overflow: hidden; height: 140px;">
               <div class="content">
                 <div class="w-full py-4 px-2">
                   <p class="lg:w-[16ch] mt-2 text-body-b text-blueLight-900">Son una forma emocionante de poner a prueba el cuerpo y la mente</p>
@@ -641,7 +420,10 @@ get_header();
       </div>
     </section>
 
-
+    <!-- add banner -->
+    <div class="w-full max-w-[752px] h-40 xl:h-[114px] mt-10 mx-auto p-3 bg-[#F1F3F7]">
+      <div class="w-full h-full bg-[#D6CCFF]"></div>
+    </div>
 
     <section class="w-full mt-10 grid grid-cols-1 lg:grid-cols-[650px_323px] gap-x-6 gap-y-16">
       <div>
@@ -692,14 +474,6 @@ get_header();
           </div>
         </div>
 
-        <a href="#" class="mt-4 flex flex-row items-center justify-center gap-x-1 text-m-b text-orange-laNota">
-          Ver más
-          <span>
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-orange-laNota" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-              <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
-            </svg>
-          </span>
-        </a>
       </div>
       <!--  -->
       <div>
@@ -851,8 +625,11 @@ get_header();
       </div>
     </section>
 
-
-    <!-- horoscopo -->
+    <!-- add banner -->
+    <div class="w-full max-w-[752px] h-40 xl:h-[114px] mt-10 mx-auto p-3 bg-[#F1F3F7]">
+      <div class="w-full h-full bg-[#D6CCFF]"></div>
+    </div>
+    <!--  -->
     <section class="mt-10">
       <h3 class="text-h5 text-gray-100">Horóscopo del día</h3>
 
@@ -1099,6 +876,10 @@ get_header();
         </div>
       </div>
     </section>
+
+
+
+
   </div>
 </div>
 
