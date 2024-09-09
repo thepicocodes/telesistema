@@ -49,8 +49,10 @@ module.exports = {
 					telesistema: '#00668F',
 					50: '#00AEE6',
 					100: '#EEF2FA',
+					300: '#CDEAFB',
 					600: '#12254A',
-					900: '#070F14'
+					900: '#070F14',
+					1000: '#2E5FC0'
 				},
 				lightBlue: {
 
