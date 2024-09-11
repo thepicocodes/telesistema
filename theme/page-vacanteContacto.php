@@ -44,12 +44,27 @@ get_header();
               <input type="email" name="email" id="email" autocomplete="email" placeholder="¿Cuál es tu correo electrónico?" class="block w-full rounded-md border-0 px-3.5 py-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 sm:text-s">
             </div>
           </div>
-          <div class="sm:col-span-2">
-            <label for="message" class="block text-base text-blue-900">Message</label>
+          <div>
+            <label for="first-name" class="block text-base text-blue-900">Perfil de LinkedIn:</label>
             <div class="mt-2.5">
-              <textarea name="message" id="message" rows="4" placeholder="¿Cuál es tu mensaje?" class="rounded-md block w-full h-32 border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 sm:text-s resize-none"></textarea>
+              <input type="text" name="first-name" id="first-name" autocomplete="given-name" placeholder="¿Cuál es tu nombre?" class="block w-full rounded-md border-0 px-3.5 py-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 sm:text-s">
             </div>
           </div>
+          <div>
+            <label for="last-name" class="block text-base text-blue-900">Teléfono de Contacto:</label>
+            <div class="mt-2.5">
+              <input type="text" name="last-name" id="last-name" autocomplete="family-name" placeholder="¿Cuál es tu apellido?" class="block w-full rounded-md border-0 px-3.5 py-4 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 sm:text-s">
+            </div>
+          </div>
+        </div>
+        <div class="mt-10">
+          <label for="" class="text-body text-blue-900">Sube tu Curriculum:</label>
+          <button class="rounded-lg border-2 border-blue-300 w-full mt-2.5 py-4 px-10 flex flex-row items-center justify-center gap-x-2 text-body text-blue-telesistema bg-blue-100">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 fill-blue-telesistema" viewBox="0 0 384 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2 160 448c0 17.7 14.3 32 32 32s32-14.3 32-32l0-306.7L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z" />
+            </svg>
+            Sube tu Curriculum:
+          </button>
         </div>
         <div class="mt-10">
           <button type="submit" class="rounded-lg inline-flex items-center gap-x-2 px-8 py-4 text-center text-m-b lg:text-xl-b text-white drop-shadow-lg bg-blue-telesistema">

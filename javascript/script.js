@@ -191,13 +191,10 @@ document.querySelectorAll('.tarot-component').forEach(component => {
 const filterSelect = document.getElementById('filterSelect');
 const sections = document.querySelectorAll('.section-item');
 
-// Aseguramos que la opción 'all' esté seleccionada al cargar la página
 filterSelect.value = 'all';
 
-// Mostrar todas las secciones al cargar la página
 sections.forEach(section => section.classList.add('active'));
 
-// Filtro de secciones al cambiar el dropdown
 filterSelect.addEventListener('change', () => {
   const filter = filterSelect.value;
 
@@ -224,3 +221,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const cards = document.querySelectorAll(".card");
+
+  cards.forEach(card => {
+    card.addEventListener("click", () => {
+      card.classList.toggle("collapsed");
+    });
+  });
+});
+
