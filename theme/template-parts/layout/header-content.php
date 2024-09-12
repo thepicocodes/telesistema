@@ -11,10 +11,11 @@
 ?>
 
 <header class="border-b border-b-[#FFEFDA] py-4 bg-blue-50">
-	<div class="w-full max-w-screen-xl mx-auto px-5 flex flex-row items-center justify-between lg:justify-between gap-x-2">
+	<div class="w-full max-w-screen-xl mx-auto px-5 grid grid-cols-[184px_1fr_184px] flex-row items-center justify-between lg:justify-between gap-x-2">
 		<a href="" class="block w-full max-w-[184px]">
 			<img src="<?php echo get_template_directory_uri(); ?>/images/telesistemas-logo.png" alt="" class="rounded-lg h-full">
 		</a>
+
 		<nav id="navigation" class="hidden lg:flex w-full h-screen lg:h-auto flex-col lg:flex-row items-center lg:justify-center gap-x-1 absolute lg:static left-0 bg-white lg:bg-inherit z-50 <?php echo is_user_logged_in() ? 'top-10' : 'top-0' ?>">
 			<ul id="nav-links" class="w-full h-screen md:h-auto md:w-fit flex flex-col gap-y-5 lg:flex-row lg:items-center gap-x-1 px-5 lg:px-0 text-white text-s-b">
 				<a id="nav-link" href="#" class="close block p-2.5 cursor-pointer self-end lg:hidden">
