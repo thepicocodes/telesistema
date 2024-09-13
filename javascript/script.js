@@ -8,6 +8,7 @@
  * For esbuild documentation, please see:
  * https://esbuild.github.io/
  */
+
 const navbarToggler = document.getElementById('navbar-toggler');
 const closeNavBtn = document.querySelector('.close');
 const nav = document.getElementById('navigation');
@@ -256,29 +257,3 @@ window.addEventListener('click', function (event) {
     dropdownMenu.classList.add('hidden'); // Cerrar el menú si el clic está fuera
   }
 });
-
-
-
-
-// Active link on current path
-function activeMenuLinks(selector, highlightClass) {
-  const links = document.querySelectorAll(selector);
-  const currentLocation = window.location.href;
-
-  links.forEach(function (link) {
-    if (link.href === currentLocation) {
-      link.classList.add(highlightClass);
-    }
-  });
-}
-
-function activeSubMenuLinks(selector, highlightClass) {
-  const links = document.querySelectorAll(selector);
-  const currentLocation = window.location.href;
-
-  links.forEach(function (link) {
-    if (link.href === currentLocation) {
-      link.classList.add(highlightClass);
-    }
-  });
-}

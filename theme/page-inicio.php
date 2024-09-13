@@ -173,53 +173,51 @@ get_header();
 
         <!-- Swiper Container -->
         <div class="relative">
-
           <div class="swiper home-swiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
+              <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
                 <div class="absolute bottom-4 w-full bg-transparent p-4 text-white">
                   <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
                   <p class="mt-2 text-xs">Lunes &#x2022; 08/04/2024</p>
                 </div>
-              </div>
+              </a>
 
-              <div class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 2" class="relative !h-full w-full">
+              <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
                 <div class="absolute bottom-4 w-full bg-transparent p-4 text-white">
                   <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
                   <p class="mt-2 text-xs">Lunes &#x2022; 08/04/2024</p>
                 </div>
-              </div>
-              <div class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 3" class="relative !h-full w-full">
+              </a>
+              <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
                 <div class="absolute bottom-4 w-full bg-transparent p-4 text-white">
                   <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
                   <p class="mt-2 text-xs">Lunes &#x2022; 08/04/2024</p>
                 </div>
-              </div>
-              <div class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 3" class="relative !h-full w-full">
+              </a>
+              <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
                 <div class="absolute bottom-4 w-full bg-transparent p-4 text-white">
                   <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
                   <p class="mt-2 text-xs">Lunes &#x2022; 08/04/2024</p>
                 </div>
-              </div>
+              </a>
             </div>
 
 
           </div>
-          <div class="absolute top-[60px] w-full flex flex-row justify-between z-50">
-            <div class="home-swiper-prev rounded-full relative w-[60px] h-[60px] flex justify-center items-center -left-[16px] bg-blue-100">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
-              </svg>
-            </div>
-            <div class="home-swiper-next rounded-full relative w-[60px] h-[60px] flex justify-center items-center -right-[16px] bg-blue-100">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
-              </svg>
-            </div>
+
+          <div class="absolute home-swiper-prev rounded-full w-[60px] h-[60px] flex justify-center items-center -left-[16px] bg-blue-100 top-[60px] z-50">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+            </svg>
+          </div>
+          <div class="absolute home-swiper-next rounded-full w-[60px] h-[60px] flex justify-center items-center -right-[16px] bg-blue-100 top-[60px] z-50">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+            </svg>
           </div>
         </div>
       </div>
@@ -245,53 +243,51 @@ get_header();
 
         <!-- Swiper Container -->
         <div class="relative">
-
           <div class="swiper home-swiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
+              <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
                 <div class="absolute bottom-4 w-full bg-transparent p-4 text-white">
                   <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
                   <p class="mt-2 text-xs">Lunes &#x2022; 08/04/2024</p>
                 </div>
-              </div>
+              </a>
 
-              <div class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 2" class="relative !h-full w-full">
+              <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
                 <div class="absolute bottom-4 w-full bg-transparent p-4 text-white">
                   <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
                   <p class="mt-2 text-xs">Lunes &#x2022; 08/04/2024</p>
                 </div>
-              </div>
-              <div class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 3" class="relative !h-full w-full">
+              </a>
+              <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
                 <div class="absolute bottom-4 w-full bg-transparent p-4 text-white">
                   <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
                   <p class="mt-2 text-xs">Lunes &#x2022; 08/04/2024</p>
                 </div>
-              </div>
-              <div class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 3" class="relative !h-full w-full">
+              </a>
+              <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
                 <div class="absolute bottom-4 w-full bg-transparent p-4 text-white">
                   <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
                   <p class="mt-2 text-xs">Lunes &#x2022; 08/04/2024</p>
                 </div>
-              </div>
+              </a>
             </div>
 
 
           </div>
-          <div class="absolute top-[60px] w-full flex flex-row justify-between z-50">
-            <div class="home-swiper-prev rounded-full relative w-[60px] h-[60px] flex justify-center items-center -left-[16px] bg-blue-100">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
-              </svg>
-            </div>
-            <div class="home-swiper-next rounded-full relative w-[60px] h-[60px] flex justify-center items-center -right-[16px] bg-blue-100">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
-              </svg>
-            </div>
+
+          <div class="absolute home-swiper-prev rounded-full w-[60px] h-[60px] flex justify-center items-center -left-[16px] bg-blue-100 top-[60px] z-50">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+            </svg>
+          </div>
+          <div class="absolute home-swiper-next rounded-full w-[60px] h-[60px] flex justify-center items-center -right-[16px] bg-blue-100 top-[60px] z-50">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+            </svg>
           </div>
         </div>
       </div>
@@ -317,53 +313,51 @@ get_header();
 
         <!-- Swiper Container -->
         <div class="relative">
-
           <div class="swiper home-swiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
+              <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
                 <div class="absolute bottom-4 w-full bg-transparent p-4 text-white">
                   <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
                   <p class="mt-2 text-xs">Lunes &#x2022; 08/04/2024</p>
                 </div>
-              </div>
+              </a>
 
-              <div class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 2" class="relative !h-full w-full">
+              <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
                 <div class="absolute bottom-4 w-full bg-transparent p-4 text-white">
                   <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
                   <p class="mt-2 text-xs">Lunes &#x2022; 08/04/2024</p>
                 </div>
-              </div>
-              <div class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 3" class="relative !h-full w-full">
+              </a>
+              <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
                 <div class="absolute bottom-4 w-full bg-transparent p-4 text-white">
                   <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
                   <p class="mt-2 text-xs">Lunes &#x2022; 08/04/2024</p>
                 </div>
-              </div>
-              <div class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 3" class="relative !h-full w-full">
+              </a>
+              <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
                 <div class="absolute bottom-4 w-full bg-transparent p-4 text-white">
                   <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
                   <p class="mt-2 text-xs">Lunes &#x2022; 08/04/2024</p>
                 </div>
-              </div>
+              </a>
             </div>
 
 
           </div>
-          <div class="absolute top-[60px] w-full flex flex-row justify-between z-50">
-            <div class="home-swiper-prev rounded-full relative w-[60px] h-[60px] flex justify-center items-center -left-[16px] bg-blue-100">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
-              </svg>
-            </div>
-            <div class="home-swiper-next rounded-full relative w-[60px] h-[60px] flex justify-center items-center -right-[16px] bg-blue-100">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
-              </svg>
-            </div>
+
+          <div class="absolute home-swiper-prev rounded-full w-[60px] h-[60px] flex justify-center items-center -left-[16px] bg-blue-100 top-[60px] z-50">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+            </svg>
+          </div>
+          <div class="absolute home-swiper-next rounded-full w-[60px] h-[60px] flex justify-center items-center -right-[16px] bg-blue-100 top-[60px] z-50">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+            </svg>
           </div>
         </div>
       </div>
@@ -389,53 +383,51 @@ get_header();
 
         <!-- Swiper Container -->
         <div class="relative">
-
           <div class="swiper home-swiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
+              <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
                 <div class="absolute bottom-4 w-full bg-transparent p-4 text-white">
                   <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
                   <p class="mt-2 text-xs">Lunes &#x2022; 08/04/2024</p>
                 </div>
-              </div>
+              </a>
 
-              <div class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 2" class="relative !h-full w-full">
+              <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
                 <div class="absolute bottom-4 w-full bg-transparent p-4 text-white">
                   <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
                   <p class="mt-2 text-xs">Lunes &#x2022; 08/04/2024</p>
                 </div>
-              </div>
-              <div class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 3" class="relative !h-full w-full">
+              </a>
+              <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
                 <div class="absolute bottom-4 w-full bg-transparent p-4 text-white">
                   <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
                   <p class="mt-2 text-xs">Lunes &#x2022; 08/04/2024</p>
                 </div>
-              </div>
-              <div class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 3" class="relative !h-full w-full">
+              </a>
+              <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
                 <div class="absolute bottom-4 w-full bg-transparent p-4 text-white">
                   <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
                   <p class="mt-2 text-xs">Lunes &#x2022; 08/04/2024</p>
                 </div>
-              </div>
+              </a>
             </div>
 
 
           </div>
-          <div class="absolute top-[60px] w-full flex flex-row justify-between z-50">
-            <div class="home-swiper-prev rounded-full relative w-[60px] h-[60px] flex justify-center items-center -left-[16px] bg-blue-100">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
-              </svg>
-            </div>
-            <div class="home-swiper-next rounded-full relative w-[60px] h-[60px] flex justify-center items-center -right-[16px] bg-blue-100">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
-              </svg>
-            </div>
+
+          <div class="absolute home-swiper-prev rounded-full w-[60px] h-[60px] flex justify-center items-center -left-[16px] bg-blue-100 top-[60px] z-50">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+            </svg>
+          </div>
+          <div class="absolute home-swiper-next rounded-full w-[60px] h-[60px] flex justify-center items-center -right-[16px] bg-blue-100 top-[60px] z-50">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+            </svg>
           </div>
         </div>
       </div>
@@ -461,53 +453,51 @@ get_header();
 
         <!-- Swiper Container -->
         <div class="relative">
-
           <div class="swiper home-swiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
+              <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
                 <div class="absolute bottom-4 w-full bg-transparent p-4 text-white">
                   <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
                   <p class="mt-2 text-xs">Lunes &#x2022; 08/04/2024</p>
                 </div>
-              </div>
+              </a>
 
-              <div class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 2" class="relative !h-full w-full">
+              <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
                 <div class="absolute bottom-4 w-full bg-transparent p-4 text-white">
                   <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
                   <p class="mt-2 text-xs">Lunes &#x2022; 08/04/2024</p>
                 </div>
-              </div>
-              <div class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 3" class="relative !h-full w-full">
+              </a>
+              <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
                 <div class="absolute bottom-4 w-full bg-transparent p-4 text-white">
                   <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
                   <p class="mt-2 text-xs">Lunes &#x2022; 08/04/2024</p>
                 </div>
-              </div>
-              <div class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 3" class="relative !h-full w-full">
+              </a>
+              <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
                 <div class="absolute bottom-4 w-full bg-transparent p-4 text-white">
                   <h3 class="text-m-b w-[20ch]">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h3>
                   <p class="mt-2 text-xs">Lunes &#x2022; 08/04/2024</p>
                 </div>
-              </div>
+              </a>
             </div>
 
 
           </div>
-          <div class="absolute top-[60px] w-full flex flex-row justify-between z-50">
-            <div class="home-swiper-prev rounded-full relative w-[60px] h-[60px] flex justify-center items-center -left-[16px] bg-blue-100">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
-              </svg>
-            </div>
-            <div class="home-swiper-next rounded-full relative w-[60px] h-[60px] flex justify-center items-center -right-[16px] bg-blue-100">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
-              </svg>
-            </div>
+
+          <div class="absolute home-swiper-prev rounded-full w-[60px] h-[60px] flex justify-center items-center -left-[16px] bg-blue-100 top-[60px] z-50">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+            </svg>
+          </div>
+          <div class="absolute home-swiper-next rounded-full w-[60px] h-[60px] flex justify-center items-center -right-[16px] bg-blue-100 top-[60px] z-50">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-telesistema" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+            </svg>
           </div>
         </div>
       </div>
