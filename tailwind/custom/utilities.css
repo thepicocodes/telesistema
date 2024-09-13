@@ -6,3 +6,20 @@
  *
  * https://tailwindcss.com/docs/plugins#adding-utilities
  */
+
+ @layer utilities {
+	.no-scrollbar::-webkit-scrollbar {
+		display: none;
+	}
+
+	.no-scrollbar {
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
+
+	.no-trix-tools {
+		.trix-button-row {
+			display: none;
+		}
+	}
+}

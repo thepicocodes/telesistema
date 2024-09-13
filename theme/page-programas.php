@@ -12,6 +12,15 @@ get_header();
 <!--  -->
 <?php get_template_part('template-parts/content/radio-overlay', 'radio-overlay'); ?>
 <!--  -->
+<div class="py-2 bg-lightBlue-100">
+  <ul id="sub-menu" class="w-full flex items-center justify-center gap-x-2 text-xs-b text-blue-900 overflow-auto no-scrollbar">
+    <li><a href="<?php echo esc_url(home_url('/Todos/')); ?>" class="block px-2 py-1 hover:text-blue-1000 focus:text-blue-1000 focus:border-b focus:border-blue-1000 border-b border-b-transparent hover:border-b hover:border-blue-1000">Todos</a></li>
+    <li><a href="<?php echo esc_url(home_url('/Información y opinión/')); ?>" class="block px-2 py-1 hover:text-blue-1000 focus:text-blue-1000 focus:border-b focus:border-blue-1000 border-b border-b-transparent hover:border-b hover:border-blue-1000">Información y opinión</a></li>
+    <li><a href="<?php echo esc_url(home_url('/Variedades/')); ?>" class="block px-2 py-1 hover:text-blue-1000 focus:text-blue-1000 focus:border-b focus:border-blue-1000 border-b border-b-transparent hover:border-b hover:border-blue-1000">Variedades</a></li>
+    <li><a href="<?php echo esc_url(home_url('/Infantil-Juvenil/')); ?>" class="block px-2 py-1 hover:text-blue-1000 focus:text-blue-1000 focus:border-b focus:border-blue-1000 border-b border-b-transparent hover:border-b hover:border-blue-1000">Infantil-Juvenil</a></li>
+  </ul>
+</div>
+<!--  -->
 
 <div class="w-full max-w-[1350px] grid grid-cols-1 xl:grid-cols-[160px_1fr_160px] gap-y-5 gap-x-5 justify-items-center mt-8 mx-auto px-5">
   <div class="hidden xl:block order-1 w-full xl:max-w-40 h-40 xl:h-[600px] bg-[#D6CCFF]"></div>

@@ -53,7 +53,7 @@ module.exports = {
 					1000: '#2E5FC0'
 				},
 				lightBlue: {
-
+					100: '#F1F9FE'
 				},
 				yellow: {
 					telesistema: '#FADE69',

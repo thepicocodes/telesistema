@@ -234,3 +234,51 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+
+
+
+const dropdownButton = document.getElementById('dropdownButton');
+const dropdownMenu = document.getElementById('dropdownMenu');
+
+// Toggle para abrir y cerrar el dropdown al hacer clic en el botón
+dropdownButton.addEventListener('click', function (event) {
+  event.stopPropagation(); // Evitar que el clic se propague
+  if (dropdownMenu.classList.contains('hidden')) {
+    dropdownMenu.classList.remove('hidden'); // Si está oculto, mostrar el menú
+  } else {
+    dropdownMenu.classList.add('hidden'); // Si está visible, ocultar el menú
+  }
+});
+
+// Opcional: Cerrar el menú si se hace clic fuera
+window.addEventListener('click', function (event) {
+  if (!dropdownButton.contains(event.target) && !dropdownMenu.contains(event.target)) {
+    dropdownMenu.classList.add('hidden'); // Cerrar el menú si el clic está fuera
+  }
+});
+
+
+
+
+// Active link on current path
+function activeMenuLinks(selector, highlightClass) {
+  const links = document.querySelectorAll(selector);
+  const currentLocation = window.location.href;
+
+  links.forEach(function (link) {
+    if (link.href === currentLocation) {
+      link.classList.add(highlightClass);
+    }
+  });
+}
+
+function activeSubMenuLinks(selector, highlightClass) {
+  const links = document.querySelectorAll(selector);
+  const currentLocation = window.location.href;
+
+  links.forEach(function (link) {
+    if (link.href === currentLocation) {
+      link.classList.add(highlightClass);
+    }
+  });
+}

@@ -11,7 +11,7 @@
 ?>
 
 <header class="border-b border-b-[#FFEFDA] py-4 bg-blue-50">
-	<div class="w-full max-w-screen-xl mx-auto px-5 grid grid-cols-[184px_1fr_184px] flex-row items-center justify-between lg:justify-between gap-x-2">
+	<div class="w-full max-w-screen-xl mx-auto px-5 lg:grid lg:grid-cols-[184px_1fr_184px] flex flex-row items-center justify-between lg:justify-between gap-x-2">
 		<a href="" class="block w-full max-w-[184px]">
 			<img src="<?php echo get_template_directory_uri(); ?>/images/telesistemas-logo.png" alt="" class="rounded-lg h-full">
 		</a>
@@ -23,11 +23,31 @@
 						<path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
 					</svg>
 				</a>
-				<li><a href="<?php echo esc_url(home_url('/Programas')); ?>" class="block w-full md:w-fit px-1 py-2 text-s-b hover:text-blue-50">Programas</a></li>
-				<li><a href="<?php echo esc_url(home_url('/Programación')); ?>" class="block w-full md:w-fit px-1 py-2 text-s-b hover:text-blue-50">Programación</a></li>
-				<li><a href="<?php echo esc_url(home_url('/Noticias')); ?>" class="block w-full md:w-fit px-1 py-2 text-s-b hover:text-blue-50">Noticias</a></li>
-				<li><a href="<?php echo esc_url(home_url('/Contacto')); ?>" class="block w-full md:w-fit px-1 py-2 text-s-b hover:text-blue-50">Contacto</a></li>
-				<li><a href="<?php echo esc_url(home_url('/Vacantes')); ?>" class="block w-full md:w-fit px-1 py-2 text-s-b hover:text-blue-50">Vacantes</a></li>
+				<li>
+					<div class="relative inline-block w-full lg:w-auto text-left group">
+						<div class="flex flex-row items-center justify-between gap-x-1">
+							<a href="/programas" class=" px-1 py-2 text-s-b">
+								Programas
+							</a>
+							<svg id="dropdownButton" xmlns="http://www.w3.org/2000/svg" class="h-6 lg:h-4 fill-black lg:fill-white" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+								<path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+							</svg>
+						</div>
+
+						<div id="dropdownMenu" class="hidden group-hover:block lg:absolute static mt-0 w-full lg:w-48 lg:rounded-md lg:shadow-lg bg-transparent lg:bg-white">
+							<div class="py-1">
+								<a href="#" class="block px-4 py-4 lg:py-2 text-s text-black lg:border-b lg:border-[#E6E6E6]">Información y opinión</a>
+								<a href="#" class="block px-4 py-4 lg:py-2 text-s text-black lg:border-b lg:border-[#E6E6E6]">Variedades</a>
+								<a href="#" class="block px-4 py-4 lg:py-2 text-s text-black lg:border-b lg:border-[#E6E6E6]">Infantil-Juvenil</a>
+								<a href="#" class="block px-4 py-4 lg:py-2 text-s text-black">Novelas</a>
+							</div>
+						</div>
+					</div>
+				</li>
+				<li><a href="<?php echo esc_url(home_url('/Programación')); ?>" class="block w-full md:w-fit px-1 py-2 text-s-b">Programación</a></li>
+				<li><a href="<?php echo esc_url(home_url('/Noticias')); ?>" class="block w-full md:w-fit px-1 py-2 text-s-b">Noticias</a></li>
+				<li><a href="<?php echo esc_url(home_url('/Contacto')); ?>" class="block w-full md:w-fit px-1 py-2 text-s-b">Contacto</a></li>
+				<li><a href="<?php echo esc_url(home_url('/Vacantes')); ?>" class="block w-full md:w-fit px-1 py-2 text-s-b">Vacantes</a></li>
 				<li class="w-max"><a href="<?php echo esc_url(home_url('/')); ?>" class="rounded-lg inline px-2 py-1 text-s-b text-white font-lato font-bold bg-orange-telesistema">En vivo</a></li>
 			</ul>
 		</nav>
