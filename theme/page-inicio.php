@@ -173,7 +173,7 @@ get_header();
 
         <!-- Swiper Container -->
         <div class="relative">
-          <div class="swiper home-swiper">
+          <div class="swiper home-swiper swiper1">
             <div class="swiper-wrapper">
               <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
@@ -243,7 +243,7 @@ get_header();
 
         <!-- Swiper Container -->
         <div class="relative">
-          <div class="swiper home-swiper">
+          <div class="swiper home-swiper swiper2">
             <div class="swiper-wrapper">
               <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
@@ -313,7 +313,7 @@ get_header();
 
         <!-- Swiper Container -->
         <div class="relative">
-          <div class="swiper home-swiper">
+          <div class="swiper home-swiper swiper3">
             <div class="swiper-wrapper">
               <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
@@ -383,7 +383,7 @@ get_header();
 
         <!-- Swiper Container -->
         <div class="relative">
-          <div class="swiper home-swiper">
+          <div class="swiper home-swiper swiper4">
             <div class="swiper-wrapper">
               <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">
@@ -453,7 +453,7 @@ get_header();
 
         <!-- Swiper Container -->
         <div class="relative">
-          <div class="swiper home-swiper">
+          <div class="swiper home-swiper swiper5">
             <div class="swiper-wrapper">
               <a href="" class="swiper-slide !h-[300px] overflow-hidden rounded-lg bg-white shadow-lg">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="Slide 1" class="relative !h-full w-full">

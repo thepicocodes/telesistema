@@ -79,6 +79,7 @@ new Swiper("#lotery-swiper", {
 });
 
 
+
 const swiper = new Swiper('.home-swiper', {
   loop: true,
   spaceBetween: 20,
