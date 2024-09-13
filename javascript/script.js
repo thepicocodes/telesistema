@@ -78,12 +78,12 @@ new Swiper("#lotery-swiper", {
 });
 
 
-const swiper = new Swiper('.mySwiper', {
+const swiper = new Swiper('.home-swiper', {
   loop: true,
   spaceBetween: 20,
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    nextEl: '.home-swiper-next',
+    prevEl: '.home-swiper-prev',
   },
   breakpoints: {
     320: {

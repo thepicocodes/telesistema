@@ -281,33 +281,19 @@ get_header();
 
       <div class="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-5">
         <div class="mt-4 md:mt-0 grid gap-x-2 gap-y-4">
-          <a href="/" class="mid-block">
-            <article class="rounded-md border w-full grid grid-cols-[60%_40%]" style="overflow: hidden; height: 140px;">
-              <div class="content">
-                <div class="w-full py-4 px-2">
-                  <p class="lg:w-[16ch] mt-2 text-body-b text-blueLight-900">Son una forma emocionante de poner a prueba el cuerpo y la mente</p>
-                </div>
-              </div>
-              <div class="image w-40%" style="overflow: hidden; position: relative">
-                <div class="h-full">
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/img-02.png" alt="" class="w-full h-full object-fit" style="object-fit: cover">
-                </div>
-              </div>
+          <a href="/">
+            <article class="grid max-h-[140px] min-h-[140px] w-full grid-cols-[1fr_120px] overflow-hidden rounded-md border">
+              <p class="text-body-b w-full p-4 text-gray-100">Son una forma emocionante de poner a prueba el cuerpo y la mente</p>
+
+              <img src="<?php echo get_template_directory_uri(); ?>/images/img-02.png" alt="" class="image h-[140px] w-[120px]">
             </article>
           </a>
 
-          <a href="/" class="mid-block">
-            <article class="rounded-md border w-full grid grid-cols-[60%_40%]" style="overflow: hidden; height: 140px;">
-              <div class="content">
-                <div class="w-full py-4 px-2">
-                  <p class="lg:w-[16ch] mt-2 text-body-b text-blueLight-900">Son una forma emocionante de poner a prueba el cuerpo y la mente</p>
-                </div>
-              </div>
-              <div class="image w-40%" style="overflow: hidden; position: relative">
-                <div class="h-full">
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/img-02.png" alt="" class="w-full h-full object-fit" style="object-fit: cover">
-                </div>
-              </div>
+          <a href="/">
+            <article class="grid max-h-[140px] min-h-[140px] w-full grid-cols-[1fr_120px] overflow-hidden rounded-md border">
+              <p class="text-body-b w-full p-4 text-gray-100">Son una forma emocionante de poner a prueba el cuerpo y la mente</p>
+
+              <img src="<?php echo get_template_directory_uri(); ?>/images/img-02.png" alt="" class="image h-[140px] w-[120px]">
             </article>
           </a>
         </div>
@@ -333,33 +319,19 @@ get_header();
         </div>
 
         <div class="mt-4 md:mt-0 grid gap-x-2 gap-y-4">
-          <a href="/" class="mid-block">
-            <article class="rounded-md border w-full grid grid-cols-[60%_40%]" style="overflow: hidden; height: 140px;">
-              <div class="content">
-                <div class="w-full py-4 px-2">
-                  <p class="lg:w-[16ch] mt-2 text-body-b text-blueLight-900">Son una forma emocionante de poner a prueba el cuerpo y la mente</p>
-                </div>
-              </div>
-              <div class="image w-40%" style="overflow: hidden; position: relative">
-                <div class="h-full">
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/img-02.png" alt="" class="w-full h-full object-fit" style="object-fit: cover">
-                </div>
-              </div>
+          <a href="/">
+            <article class="grid max-h-[140px] min-h-[140px] w-full grid-cols-[1fr_120px] overflow-hidden rounded-md border">
+              <p class="text-body-b w-full p-4 text-gray-100">Son una forma emocionante de poner a prueba el cuerpo y la mente</p>
+
+              <img src="<?php echo get_template_directory_uri(); ?>/images/img-02.png" alt="" class="image h-[140px] w-[120px]">
             </article>
           </a>
 
-          <a href="/" class="mid-block">
-            <article class="rounded-md border w-full grid grid-cols-[60%_40%]" style="overflow: hidden; height: 140px;">
-              <div class="content">
-                <div class="w-full py-4 px-2">
-                  <p class="lg:w-[16ch] mt-2 text-body-b text-blueLight-900">Son una forma emocionante de poner a prueba el cuerpo y la mente</p>
-                </div>
-              </div>
-              <div class="image w-40%" style="overflow: hidden; position: relative">
-                <div class="h-full">
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/img-02.png" alt="" class="w-full h-full object-fit" style="object-fit: cover">
-                </div>
-              </div>
+          <a href="/">
+            <article class="grid max-h-[140px] min-h-[140px] w-full grid-cols-[1fr_120px] overflow-hidden rounded-md border">
+              <p class="text-body-b w-full p-4 text-gray-100">Son una forma emocionante de poner a prueba el cuerpo y la mente</p>
+
+              <img src="<?php echo get_template_directory_uri(); ?>/images/img-02.png" alt="" class="image h-[140px] w-[120px]">
             </article>
           </a>
         </div>
