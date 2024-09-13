@@ -70,7 +70,7 @@ get_header();
         </div>
 
         <div>
-          <h3 class="text-xl font-extrabold text-orange-InfTeleantillas">Más visto</h3>
+          <h3 class="text-xl-b text-blue-telesistema">Más visto</h3>
           <div class="mt-5 grid grid-rows-3 grid-cols-1 gap-y-4">
             <a href="/">
               <article class="grid max-h-[140px] min-h-[140px] w-full grid-cols-[1fr_120px] overflow-hidden rounded-md border">
@@ -104,7 +104,7 @@ get_header();
 
       <!-- grid row -->
       <div class="w-full mx-auto mt-10">
-        <h5 class="text-h5 text-orange-InfTeleantillas">Noticias relacionadas</h5>
+        <h5 class="text-h5 text-blue-telesistema">Noticias relacionadas</h5>
 
         <div class="mt-5 grid md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-5">
           <div class="mt-4 md:mt-0 grid gap-x-2 gap-y-4">
@@ -216,7 +216,7 @@ get_header();
               </div>
             </div>
 
-            <div class="rounded-lg flex flex-row justify-between items-center mt-2 py-2 px-4 bg-blue-100">
+            <div class="rounded-lg flex flex-row justify-between items-center mt-2 px-4 bg-blue-100">
               <div class="text-s text-blue-900">Miércoles</div>
               <img src="<?php echo get_template_directory_uri(); ?>/images/cloud.png" alt="US Flag" class="h-8">
               <div class="text-s-b">
@@ -225,7 +225,7 @@ get_header();
               </div>
             </div>
 
-            <div class="rounded-lg flex flex-row justify-between items-center mt-2 py-2 px-4 bg-blue-100">
+            <div class="rounded-lg flex flex-row justify-between items-center mt-2 px-4 bg-blue-100">
               <div class="text-s text-blue-900">Miércoles</div>
               <img src="<?php echo get_template_directory_uri(); ?>/images/cloud.png" alt="US Flag" class="h-8">
               <div class="text-s-b">
@@ -234,7 +234,7 @@ get_header();
               </div>
             </div>
 
-            <div class="rounded-lg flex flex-row justify-between items-center mt-2 py-2 px-4 bg-blue-100">
+            <div class="rounded-lg flex flex-row justify-between items-center mt-2 px-4 bg-blue-100">
               <div class="text-s text-blue-900">Miércoles</div>
               <img src="<?php echo get_template_directory_uri(); ?>/images/cloud.png" alt="US Flag" class="h-8">
               <div class="text-s-b">
@@ -461,7 +461,7 @@ get_header();
       </div>
 
       <section class="mt-10">
-        <h3 class="text-xl-b lg:text-h5 text-gray-100">Horóscopo del día</h3>
+        <h3 class="text-xl-b lg:text-h5 text-blue-telesistema">Horóscopo del día</h3>
 
         <div id="tarot-swiper" class="swiper mt-6">
           <div class="swiper-wrapper">
