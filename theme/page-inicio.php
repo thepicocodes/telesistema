@@ -9,7 +9,6 @@
 get_header();
 ?>
 
-<?php get_template_part('template-parts/content/radio-overlay', 'radio-overlay'); ?>
 
 <div class="mx-auto mt-8 grid w-full max-w-[1360px] grid-cols-1 justify-items-center gap-[23px] px-5 lg:px-0 xl:grid-cols-[160px_1fr_160px]">
   <div class="xl:max-w-40 order-1 hidden h-40 w-full bg-[#D6CCFF] xl:block xl:h-[600px]"></div>

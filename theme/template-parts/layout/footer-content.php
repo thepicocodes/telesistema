@@ -13,11 +13,12 @@
 <footer class="mt-24 bg-blue-telesistema font-lato">
 	<div class="px-10 pt-10">
 		<div class="w-full grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-10 text-white">
-			<div class="pr-48 self-start">
-				<a href="">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/telesistema-footer-logo.png" alt="" class="rounded-lg block h-full object-cover">
-				</a>
-			</div>
+			<a href="" class="block shrink-0">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/telesistema-footer-logo.png"
+					srcset="<?php echo get_template_directory_uri(); ?>/images/telesistema-footer-logo@2x.png 2x"
+					alt="Logo informativos teleantillas"
+					class="block h-[99px] w-[204px]">
+			</a>
 
 			<div class="">
 				<h4 class="font-extrabold uppercase text-sm text-yellow-telesistema">Secciones</h4>

@@ -39,8 +39,10 @@ newsletterToggler.onclick = function () {
 };
 
 //close overlay radio
-radioOverlayToggle.onclick = function () {
-  radioOverlay.classList.add('hidden');
+if (radioOverlayToggle && radioOverlay) {
+  radioOverlayToggle.onclick = function () {
+    radioOverlay.classList.add("hidden");
+  };
 }
 
 //input search funtion
@@ -409,8 +411,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-
-
 
 
 const dropdownButton = document.getElementById('dropdownButton');
