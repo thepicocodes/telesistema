@@ -12,114 +12,112 @@
 
 <footer class="mt-24 bg-blue-telesistema font-lato">
 	<div class="px-10 pt-10">
-		<div class="w-full flex flex-col md:flex-row items-center gap-y-10 text-white">
+		<div class="w-full grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-10 text-white">
 			<div class="pr-48 self-start">
 				<a href="">
 					<img src="<?php echo get_template_directory_uri(); ?>/images/telesistema-footer-logo.png" alt="" class="rounded-lg block h-full object-cover">
 				</a>
 			</div>
 
-			<div class="w-full md:w-min flex-1 grid lg:grid-cols-3 gap-y-10 gap-x-5">
-				<div class="">
-					<h4 class="font-extrabold uppercase text-sm text-yellow-telesistema">Secciones</h4>
-					<ul class="mt-2.5 grid gap-y-2.5">
-						<li>
-							<a href="" class="block w-full py-2 lg:py-0">ProgramasProgramación</a>
-						</li>
-						<li>
-							<a href="" class="block w-full py-2 lg:py-0">ProgramaciónNoticias</a>
-						</li>
-						<li>
-							<a href="" class="block w-full py-2 lg:py-0">NoticiasContacto</a>
-						</li>
-						<li>
-							<a href="" class="block w-full py-2 lg:py-0">Contacto</a>
-						</li>
-						<li>
-							<a href="" class="block w-full py-2 lg:py-0">Variedades</a>
-						</li>
-					</ul>
-				</div>
+			<div class="">
+				<h4 class="font-extrabold uppercase text-sm text-yellow-telesistema">Secciones</h4>
+				<ul class="mt-2.5 grid gap-y-2.5">
+					<li>
+						<a href="" class="block w-full py-2 lg:py-0">ProgramasProgramación</a>
+					</li>
+					<li>
+						<a href="" class="block w-full py-2 lg:py-0">ProgramaciónNoticias</a>
+					</li>
+					<li>
+						<a href="" class="block w-full py-2 lg:py-0">NoticiasContacto</a>
+					</li>
+					<li>
+						<a href="" class="block w-full py-2 lg:py-0">Contacto</a>
+					</li>
+					<li>
+						<a href="" class="block w-full py-2 lg:py-0">Variedades</a>
+					</li>
+				</ul>
+			</div>
 
-				<div class="">
-					<h4 class="font-extrabold uppercase text-sm text-yellow-telesistema">últimos Noticias</h4>
-					<ul class="mt-2.5 grid gap-y-2.5">
-						<li>
-							<a href="" class="block w-full py-2 lg:py-0">programa 1</a>
-						</li>
-						<li>
-							<a href="" class="block w-full py-2 lg:py-0">programa 2</a>
-						</li>
-						<li>
-							<a href="" class="block w-full py-2 lg:py-0">programa 3</a>
-						</li>
-						<li>
-							<a href="" class="block w-full py-2 lg:py-0">programa 4</a>
-						</li>
-						<li>
-							<a href="" class="block w-full py-2 lg:py-0">programa 5</a>
-						</li>
-						<li>
-							<a href="" class="block w-full py-2 lg:py-0">programa 6</a>
-						</li>
-					</ul>
-				</div>
+			<div class="">
+				<h4 class="font-extrabold uppercase text-sm text-yellow-telesistema">últimos Noticias</h4>
+				<ul class="mt-2.5 grid gap-y-2.5">
+					<li>
+						<a href="" class="block w-full py-2 lg:py-0">programa 1</a>
+					</li>
+					<li>
+						<a href="" class="block w-full py-2 lg:py-0">programa 2</a>
+					</li>
+					<li>
+						<a href="" class="block w-full py-2 lg:py-0">programa 3</a>
+					</li>
+					<li>
+						<a href="" class="block w-full py-2 lg:py-0">programa 4</a>
+					</li>
+					<li>
+						<a href="" class="block w-full py-2 lg:py-0">programa 5</a>
+					</li>
+					<li>
+						<a href="" class="block w-full py-2 lg:py-0">programa 6</a>
+					</li>
+				</ul>
+			</div>
 
-				<div class="">
-					<h4 class="font-extrabold uppercase text-sm text-yellow-telesistema">Otros enlaces</h4>
-					<ul class="mt-2.5 grid gap-y-2.5">
-						<li>
-							<a href="" class="block w-full py-2 lg:py-0">Políticas de privacidad</a>
-						</li>
-						<li>
-							<a href="" class="block w-full py-2 lg:py-0">Políticas de uso</a>
-						</li>
-						<li>
-							<a href="" class="block w-full py-2 lg:py-0">Términos y condiciones</a>
-						</li>
-						<li>
-							<a href="" class="block w-full py-2 lg:py-0">Publicidad</a>
-						</li>
-						<li>
-							<a href="" class="block w-full py-2 lg:py-0">Contactos</a>
-						</li>
-					</ul>
-				</div>
+			<div class="">
+				<h4 class="font-extrabold uppercase text-sm text-yellow-telesistema">Otros enlaces</h4>
+				<ul class="mt-2.5 grid gap-y-2.5">
+					<li>
+						<a href="" class="block w-full py-2 lg:py-0">Políticas de privacidad</a>
+					</li>
+					<li>
+						<a href="" class="block w-full py-2 lg:py-0">Políticas de uso</a>
+					</li>
+					<li>
+						<a href="" class="block w-full py-2 lg:py-0">Términos y condiciones</a>
+					</li>
+					<li>
+						<a href="" class="block w-full py-2 lg:py-0">Publicidad</a>
+					</li>
+					<li>
+						<a href="" class="block w-full py-2 lg:py-0">Contactos</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 		<!--  -->
 		<div class="border-t border-b mt-5">
-			<ul class="w-full mx-auto py-8 grid grid-cols-2 md:grid-cols-6 lg:grid-cols-8 items-center justify-items-center gap-x-10 gap-y-5">
+			<ul class="w-full mx-auto py-8 grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 items-center justify-items-center gap-x-10 gap-y-5">
 
 				<li class="">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/ts-logo.png" alt="Telesistemas" class="">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/ts-logo.png" alt="Telesistemas" class="h-[60px] object-contain">
 				</li>
 				<li class="">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/telenoticias-logo.png" alt="Telenoticias" class="">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/telenoticias-logo.png" alt="Telenoticias" class="h-[60px] object-contain">
 				</li>
 				<li class="">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/aym-logo.png" alt="Arte y medio" class="">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/aym-logo.png" alt="Arte y medio" class="h-[60px] object-contain">
 				</li>
 				<li class="">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/logo-ta.png" alt="Teleantillas" class="">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/logo-ta.png" alt="Teleantillas" class="h-[60px] object-contain">
 				</li>
 				<li class="">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/info-logo.png" alt="Informativos ta" class="">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/info-logo.png" alt="Informativos ta" class="h-[60px] object-contain">
 				</li>
 				<li class="">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/nota-logo.png" alt="La nota" class="">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/nota-logo.png" alt="La nota" class="h-[60px] object-contain">
 				</li>
 				<li class="">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/hijb-logo.png" alt="HIJB" class="">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/hijb-logo.png" alt="HIJB" class="h-[60px] object-contain">
 				</li>
 				<li class="">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/coral-logo.png" alt="Coral" class="">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/coral-logo.png" alt="Coral" class="h-[60px] object-contain">
 				</li>
 			</ul>
 		</div>
 		<!--  -->
 		<div class="py-9 flex flex-col lg:flex-row items-center justify-between gap-y-5 text-white">
-			<p>© Copyright - Grupo de Comunicación Corripio • Políticas de Privacidad • Términos y condiciones</p>
+			<p>© Copyright - Grupo de Comunicación Corripio<br class="md:hidden"> • <a href="#" title="">Políticas de Privacidad</a> • <a href="#" title="">Términos y condiciones</a></p>
 			<div>
 				<ul class="mt-10 md:mt-0 flex flex-wrap items-center gap-y-12 gap-x-12 lg:gap-x-4 lg:gap-y-2.5">
 					<li>

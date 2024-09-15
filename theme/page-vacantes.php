@@ -11,12 +11,12 @@ get_header();
 
 <div class="w-full max-w-[1354px] grid grid-cols-1 xl:grid-cols-[160px_1fr_160px] justify-items-center gap-y-5 gap-x-5 mt-24 mx-auto px-5">
   <div class="rounded-lg hidden xl:block order-1 w-full xl:max-w-40 h-40 xl:h-[600px] bg-[#D6CCFF]"></div>
-  <div class="rounded-lg hidden xl:block order-3 w-full xl:max-w-40 h-40 xl:h-[600px] mb-5 bg-[#D6CCFF]"></div>
-  <!--  -->
+  <div class="xl:max-w-40 order-1 hidden h-40 w-full bg-[#D6CCFF] xl:block xl:h-[600px]"></div>
+  <div class="xl:max-w-40 order-3 mb-5 hidden h-40 w-full bg-[#D6CCFF] xl:block xl:h-[600px]"></div>
+
   <div class="order-2 w-full max-w-5xl">
-    <!-- ad -->
-    <div class="w-full max-w-[994px] h-[274px] mx-auto px-3 py-3 bg-[#F1F3F7]">
-      <div class="w-full h-full bg-[#D6CCFF]"></div>
+    <div class="mb-5 hidden h-40 w-full bg-[#F1F3F7] p-3 md:block xl:h-[274px]">
+      <div class="h-full w-full bg-[#D6CCFF]"></div>
     </div>
     <!--  -->
     <section class="mt-8 flex flex-col gap-2">

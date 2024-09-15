@@ -14,12 +14,12 @@ get_header();
 <!--  -->
 
 <div class="w-full max-w-[1350px] grid grid-cols-1 xl:grid-cols-[160px_1fr_160px] gap-y-5 gap-x-5 justify-items-center mt-8 mx-auto px-5">
-  <div class="hidden xl:block order-1 w-full xl:max-w-40 h-40 xl:h-[600px] bg-[#D6CCFF]"></div>
-  <div class="hidden xl:block order-3 w-full xl:max-w-40 h-40 xl:h-[600px] mb-5 bg-[#D6CCFF]"></div>
+  <div class="xl:max-w-40 order-1 hidden h-40 w-full bg-[#D6CCFF] xl:block xl:h-[600px]"></div>
+  <div class="xl:max-w-40 order-3 mb-5 hidden h-40 w-full bg-[#D6CCFF] xl:block xl:h-[600px]"></div>
 
   <div class="order-2 w-full max-w-5xl">
-    <div class="w-full h-40 xl:h-[274px] mb-5 p-3 bg-[#F1F3F7]">
-      <div class="w-full h-full bg-[#D6CCFF]"></div>
+    <div class="mb-5 hidden h-40 w-full bg-[#F1F3F7] p-3 md:block xl:h-[274px]">
+      <div class="h-full w-full bg-[#D6CCFF]"></div>
     </div>
 
     <section class="">
