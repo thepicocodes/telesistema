@@ -59,7 +59,7 @@
 
 		<div class="flex flex-row items-center gap-x-5">
 			<!-- search input -->
-			<div class="absolute top-[146px] left-0 md:top-0 md:static w-full px-2.5 xl:px-0">
+			<div class="absolute top-[146px] left-0 md:top-0 md:static w-full px-2.5 xl:px-0 z-50">
 				<div id="input-search" class="hidden md:relative">
 					<input id="search-bar" type="search" placeholder="¿Qué andas buscando?" class="border border-gray-1000 rounded-lg w-full md:w-[232px] px-3.5 py-3.5 placeholder:text-gray-200 text-s outline-none">
 					<svg xmlns="http://www.w3.org/2000/svg" id="search-icon" class="absolute top-2/4 right-6 -translate-y-2/4 h-4 fill-blue-900" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
