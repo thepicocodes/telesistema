@@ -158,7 +158,7 @@ get_header();
     </div>
     <!--  -->
 
-    <section class="mx-auto mt-10 max-w-[960px]">
+    <section class="mx-auto mt-8 max-w-[960px]">
       <div class="">
         <div class="mb-4 flex items-center justify-between">
           <h2 class="lg:text-h5 text-blue-telesistema text-xl-b">Información y Opinión</h2>

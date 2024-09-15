@@ -12,15 +12,18 @@
 
 <?php get_template_part('template-parts/content/radio-overlay', 'radio-overlay'); ?>
 
-<header class="border-b border-b-[#FFEFDA] py-4 bg-blue-50">
-	<div class="w-full max-w-screen-xl mx-auto px-5 lg:grid lg:grid-cols-[184px_1fr_184px] flex flex-row items-center justify-between lg:justify-between gap-x-2">
-		<a href="" class="block w-full max-w-[184px]">
-			<img src="<?php echo get_template_directory_uri(); ?>/images/telesistemas-logo.png" alt="" class="rounded-lg h-full">
+<header class="border-b py-4 px-5 bg-blue-50">
+	<div class="w-full max-w-screen-xl mx-auto flex flex-row items-center justify-between xl:justify-between gap-x-2">
+		<a href="" class="block shrink-0">
+			<img src="<?php echo get_template_directory_uri(); ?>/images/telesistemas-logo.png"
+				srcset="<?php echo get_template_directory_uri(); ?>/images/telesistemas-logo@2x.png 2x"
+				alt="Logo Telesistema"
+				class="block h-[57px] w-[118px]">
 		</a>
 
-		<nav id="navigation" class="hidden lg:flex w-full h-screen lg:h-auto flex-col lg:flex-row items-center lg:justify-center gap-x-1 absolute lg:static left-0 bg-white lg:bg-inherit z-50 <?php echo is_user_logged_in() ? 'top-10' : 'top-0' ?>">
-			<ul id="nav-links" class="w-full h-screen md:h-auto md:w-fit flex flex-col gap-y-5 lg:flex-row lg:items-center gap-x-1 px-5 lg:px-0 text-white text-s-b">
-				<a id="nav-link" href="#" class="close block p-2.5 cursor-pointer self-end lg:hidden">
+		<nav id="navigation" class="hidden xl:flex w-full h-screen xl:h-auto flex-col xl:flex-row items-center xl:justify-center gap-x-1 absolute xl:static left-0 bg-white xl:bg-inherit z-50 <?php echo is_user_logged_in() ? 'top-10' : 'top-0' ?>">
+			<ul id="nav-links" class="w-full h-screen md:h-auto md:w-fit flex flex-col gap-y-5 xl:flex-row xl:items-center gap-x-1 px-5 xl:px-0 text-white text-sm font-bold">
+				<a id="nav-link" href="#" class="close block p-2.5 cursor-pointer self-end xl:hidden">
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-10 self-end fill-black pointer" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
 						<path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
 					</svg>
