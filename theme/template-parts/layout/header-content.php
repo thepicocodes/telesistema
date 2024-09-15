@@ -78,7 +78,7 @@
 					</span>
 				</a>
 				<li>
-					<a href="" class="px-2">
+					<a href="#" id="newsletter" class="px-2">
 						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 fill-white" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
 							<path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
 						</svg>
@@ -93,3 +93,76 @@
 		</div>
 	</div>
 </header>
+
+
+
+<!-- modal box newsletter -->
+
+<section id="newsletter-modal" class="hidden absolute top-0 w-full h-lvh bg-[#000000A3] z-50">
+	<div class="h-full flex items-center justify-center">
+		<div class="w-full max-w-5xl mx-auto mt-40 px-5 py-20 ">
+			<div id="modal-box" class="rounded-2xl w-full max-w-5xl mt-8 py-8 px-10 relative -top-20 shadow-lg bg-white">
+				<div class="flex flex-row items-center justify-between">
+					<div>
+						<h4 class="text-h5 lg:text-h4 text-blue-900 font-bold">Newsletter</h4>
+						<p class="">Los campos marcados con (<span class="text-red-500">*</span>) son obligatorios</p>
+					</div>
+
+					<svg xmlns="http://www.w3.org/2000/svg" id="newsletter-toggler" class="h-6 fill-black cursor-pointer" viewBox="0 0 384 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+						<path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+					</svg>
+				</div>
+				<form action="#" method="POST" class="mt-5">
+					<div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+						<div class="sm:col-span-2">
+							<label for="email" class="block text-base text-blue-900">Correo:<span class="text-red-500">*</span></label>
+							<div class="mt-2.5">
+								<input type="email" name="email" id="email" autocomplete="email" placeholder="¿Cuál es tu correo electrónico?" class="block w-full h-[50px] rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-700 sm:text-s">
+							</div>
+						</div>
+					</div>
+					<!--  -->
+					<div class="mt-5">
+						<label for="date" class="block text-base text-blue-900">Fecha de nacimiento:</label>
+						<div class="mt-2.5">
+							<input type="date" name="date" id="date" autocomplete="email" placeholder="¿Cuál es tu correo electrónico?" class="block w-full h-[50px] rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-700 sm:text-s">
+						</div>
+					</div>
+					<div class="mt-5">
+						<p>Selecciona las noticias que más te interesan:</p>
+						<div class="w-full flex items-center justify-between mt-2">
+							<p class="text-m-b lg:text-xl-b text-black">El Tizón - Baseball</p>
+							<label class="relative inline-flex cursor-pointer items-center">
+								<input id="switch" type="checkbox" class="peer sr-only" />
+								<label for="switch" class="hidden"></label>
+								<div class="peer h-6 w-11 rounded-full border after:absolute after:left-[2px] after:top-0.5 after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-telesistema peer-checked:after:translate-x-full"></div>
+							</label>
+						</div>
+						<!--  -->
+						<div class="w-full flex items-center justify-between mt-2">
+							<p class="text-m-b lg:text-xl-b text-black">El Tizón - Basketball</p>
+							<label class="relative inline-flex cursor-pointer items-center">
+								<input id="switch" type="checkbox" class="peer sr-only" />
+								<label for="switch" class="hidden"></label>
+								<div class="peer h-6 w-11 rounded-full border after:absolute after:left-[2px] after:top-0.5 after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-telesistema peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:ring-green-300"></div>
+							</label>
+						</div>
+						<!--  -->
+						<div class="w-full flex items-center justify-between mt-2">
+							<p class="text-m-b lg:text-xl-b text-black">El Tizón - Football</p>
+							<label class="relative inline-flex cursor-pointer items-center">
+								<input id="switch" type="checkbox" class="peer sr-only" />
+								<label for="switch" class="hidden"></label>
+								<div class="peer h-6 w-11 rounded-full border after:absolute after:left-[2px] after:top-0.5 after:h-5 after:w-5 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-telesistema peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:ring-green-300"></div>
+							</label>
+						</div>
+					</div>
+					<div class="mt-10">
+						<button type="submit" class="rounded-[40px] inline-block px-8 py-4 text-center text-base-b lg:text-xl-b text-white drop-shadow-lg bg-blue-telesistema">Suscribirme</button>
+					</div>
+				</form>
+			</div>
+			<!--  -->
+		</div>
+	</div>
+</section>

@@ -20,6 +20,24 @@ const closeSearchBtn = document.getElementById('search-close');
 const radioOverlay = document.getElementById('radio-overlay');
 const radioOverlayToggle = document.getElementById('radio-overlay-toggler');
 
+
+//Newsletter overlay
+const newsletter = document.getElementById('newsletter');
+const newsletterToggler = document.getElementById('newsletter-toggler');
+const newsletterModal = document.getElementById('newsletter-modal');
+
+newsletter.onclick = function () {
+  newsletterModal.classList.remove('hidden');
+  newsletterModal.classList.add('block');
+  inputSearchBar.focus();
+};
+
+newsletterToggler.onclick = function () {
+  newsletterModal.classList.remove('block');
+  newsletterModal.classList.add('hidden');
+  inputSearchBar.focus();
+};
+
 //close overlay radio
 radioOverlayToggle.onclick = function () {
   radioOverlay.classList.add('hidden');
@@ -78,38 +96,194 @@ new Swiper("#lotery-swiper", {
   },
 });
 
+function initSwiper(selector, options = {}) {
+  return new Swiper(selector, {
+    loop: true,
+    spaceBetween: 20,
+    ...options
+  });
+}
 
+document.addEventListener('DOMContentLoaded', () => {
+  // Slider 1
+  initSwiper('.swiper1', {
+    navigation: {
+      nextEl: '.home-swiper-next-1',
+      prevEl: '.home-swiper-prev-1',
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+      },
+      640: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+      },
+      768: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+      },
+      1440: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+      },
+    },
+    loop: true,
+  });
 
-const swiper = new Swiper('.home-swiper', {
-  loop: true,
-  spaceBetween: 20,
-  navigation: {
-    nextEl: '.home-swiper-next',
-    prevEl: '.home-swiper-prev',
-  },
-  breakpoints: {
-    320: {
-      slidesPerView: 1,
-      slidesPerGroup: 1,
+  // Slider 2 con opciones diferentes
+  initSwiper('.swiper2', {
+    navigation: {
+      nextEl: '.home-swiper-next-2',
+      prevEl: '.home-swiper-prev-2',
     },
-    640: {
-      slidesPerView: 2,
-      slidesPerGroup: 2,
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+      },
+      640: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+      },
+      768: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+      },
+      1440: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+      },
     },
-    768: {
-      slidesPerView: 2,
-      slidesPerGroup: 2,
+    loop: true,
+  });
+  initSwiper('.swiper3', {
+    navigation: {
+      nextEl: '.home-swiper-next-3',
+      prevEl: '.home-swiper-prev-3',
     },
-    1024: {
-      slidesPerView: 3,
-      slidesPerGroup: 3,
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+      },
+      640: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+      },
+      768: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+      },
+      1440: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+      },
     },
-    1440: {
-      slidesPerView: 3,
-      slidesPerGroup: 3,
+    loop: true,
+  });
+  initSwiper('.swiper4', {
+    navigation: {
+      nextEl: '.home-swiper-next-4',
+      prevEl: '.home-swiper-prev-4',
     },
-  },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+      },
+      640: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+      },
+      768: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+      },
+      1440: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+      },
+    },
+    loop: true,
+  });
+  initSwiper('.swiper5', {
+    navigation: {
+      nextEl: '.home-swiper-next-5',
+      prevEl: '.home-swiper-prev-5',
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+      },
+      640: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+      },
+      768: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+      },
+      1440: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+      },
+    },
+    loop: true,
+  });
+  initSwiper('.swiper6', {
+    navigation: {
+      nextEl: '.home-swiper-next-6',
+      prevEl: '.home-swiper-prev-6',
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        slidesPerGroup: 1,
+      },
+      640: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+      },
+      768: {
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+      },
+      1024: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+      },
+      1440: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+      },
+    },
+    loop: true,
+  });
 });
+
 
 
 // tarot

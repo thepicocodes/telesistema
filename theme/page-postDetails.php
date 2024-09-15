@@ -57,7 +57,7 @@ get_header();
       </div>
       <div class="mt-10 grid md:grid-cols-[1fr_300px] gap-y-5 gap-x-8">
         <div>
-          <img src="<?php echo get_template_directory_uri(); ?>/images/img-14.png" alt="Post thumbnail" class="rounded-lg block w-full max-w-[630px] h-[630px] object-cover">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/img-14.png" alt="Post thumbnail" class="aspect-square w-full rounded-lg object-cover object-center">
           <p class="mt-8 text-body text-[#6A6A6A] leading-[24px]">
             En medio de distintas realidades, Deportivo Cali y América protagonizarán una nueva edición del clásico vallecaucano. El Verde, que atraviesa una crisis deportiva que lo complica con el descenso, recibe al equipo de César Farías, que por el contrario dejó atrás la mala racha y encadenó una serie de resultados positivos que lo tiene en la pelea por clasificar a cuadrangulares de la Liga BetPlay.
             <br> <br>
@@ -460,15 +460,15 @@ get_header();
         <div class="w-full h-full bg-[#D6CCFF]"></div>
       </div>
 
-      <section class="mt-10">
+      <section class="mx-auto mt-10 max-w-[960px]">
         <h3 class="text-xl-b lg:text-h5 text-blue-telesistema">Horóscopo del día</h3>
 
         <div id="tarot-swiper" class="swiper mt-6">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
-              <div class="tarot-component rounded-lg p-4 pb-10 relative bg-[#F4F4F4]">
-                <span class="rounded-[18px] py-1 px-2 text-xs-b text-white bg-blue-50">Escorpion</span>
-                <p class="h-[180px] mt-2 text-s leading-[20px] text-gray-100 relative z-10">
+              <div class="tarot-component relative rounded-lg bg-[#F4F4F4] p-4 pb-10">
+                <span class="text-xs-b rounded-[18px] bg-blue-50 px-2 py-1 text-white">Escorpion</span>
+                <p class="text-s relative z-10 mt-2 h-[180px] leading-[20px] text-gray-100">
                   <span class="tarot-content">
                     Las redes sociales están llenas de soluciones para problemas
                     que no tenemos. O tal vez los tenemos, pero solo cuando nos
@@ -476,17 +476,17 @@ get_header();
                     preguntarnos si necesitamos tomar medidas para abordarlos.
                     ¡Las arrugas y los productos milagrosos milagrosos...
                   </span>
-                  <button class="tarot-toggler self-end text-xs-b text-blue-50">Mostrar todo</button>
+                  <button class="tarot-toggler text-xs-b self-end text-blue-50">Mostrar todo</button>
                 </p>
-                <div class="mt-5 flex justify-end absolute bottom-2 right-5">
+                <div class="absolute bottom-2 right-5 mt-5 flex justify-end">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/escorpio.png" alt="" class="">
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="tarot-component rounded-lg p-4 pb-10 relative bg-[#F4F4F4]">
-                <span class="rounded-[18px] py-1 px-2 text-xs-b text-white bg-blue-50">Aries</span>
-                <p class="h-[180px] mt-2 text-s leading-[20px] text-gray-100 relative z-20">
+              <div class="tarot-component relative rounded-lg bg-[#F4F4F4] p-4 pb-10">
+                <span class="text-xs-b rounded-[18px] bg-blue-50 px-2 py-1 text-white">Aries</span>
+                <p class="text-s relative z-20 mt-2 h-[180px] leading-[20px] text-gray-100">
                   <span class="tarot-content">
                     Las redes sociales están llenas de soluciones para problemas
                     que no tenemos. O tal vez los tenemos, pero solo cuando nos
@@ -494,17 +494,17 @@ get_header();
                     preguntarnos si necesitamos tomar medidas para abordarlos.
                     ¡Las arrugas y los productos milagrosos milagrosos...
                   </span>
-                  <button class="tarot-toggler self-end text-xs-b text-blue-50">Mostrar todo</button>
+                  <button class="tarot-toggler text-xs-b self-end text-blue-50">Mostrar todo</button>
                 </p>
-                <div class="mt-5 flex justify-end absolute bottom-2 right-5 z-10">
+                <div class="absolute bottom-2 right-5 z-10 mt-5 flex justify-end">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/aries.png" alt="" class="">
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="tarot-component rounded-lg p-4 pb-10 relative bg-[#F4F4F4]">
-                <span class="rounded-[18px] py-1 px-2 text-xs-b text-white bg-blue-50">Tauro</span>
-                <p class="h-[180px] mt-2 text-s leading-[20px] text-gray-100 relative z-20">
+              <div class="tarot-component relative rounded-lg bg-[#F4F4F4] p-4 pb-10">
+                <span class="text-xs-b rounded-[18px] bg-blue-50 px-2 py-1 text-white">Tauro</span>
+                <p class="text-s relative z-20 mt-2 h-[180px] leading-[20px] text-gray-100">
                   <span class="tarot-content">
                     Las redes sociales están llenas de soluciones para problemas
                     que no tenemos. O tal vez los tenemos, pero solo cuando nos
@@ -512,17 +512,17 @@ get_header();
                     preguntarnos si necesitamos tomar medidas para abordarlos.
                     ¡Las arrugas y los productos milagrosos milagrosos...
                   </span>
-                  <button class="tarot-toggler self-end text-xs-b text-blue-50">Mostrar todo</button>
+                  <button class="tarot-toggler text-xs-b self-end text-blue-50">Mostrar todo</button>
                 </p>
-                <div class="mt-5 flex justify-end absolute bottom-2 right-5 z-10">
+                <div class="absolute bottom-2 right-5 z-10 mt-5 flex justify-end">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/tauro.png" alt="" class="">
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="tarot-component rounded-lg p-4 pb-10 relative bg-[#F4F4F4]">
-                <span class="rounded-[18px] py-1 px-2 text-xs-b text-white bg-blue-50">Géminis</span>
-                <p class="h-[180px] mt-2 text-s leading-[20px] text-gray-100 relative z-20">
+              <div class="tarot-component relative rounded-lg bg-[#F4F4F4] p-4 pb-10">
+                <span class="text-xs-b rounded-[18px] bg-blue-50 px-2 py-1 text-white">Géminis</span>
+                <p class="text-s relative z-20 mt-2 h-[180px] leading-[20px] text-gray-100">
                   <span class="tarot-content">
                     Las redes sociales están llenas de soluciones para problemas
                     que no tenemos. O tal vez los tenemos, pero solo cuando nos
@@ -530,17 +530,17 @@ get_header();
                     preguntarnos si necesitamos tomar medidas para abordarlos.
                     ¡Las arrugas y los productos milagrosos milagrosos...
                   </span>
-                  <button class="tarot-toggler self-end text-xs-b text-blue-50">Mostrar todo</button>
+                  <button class="tarot-toggler text-xs-b self-end text-blue-50">Mostrar todo</button>
                 </p>
-                <div class="mt-5 flex justify-end absolute bottom-2 right-5 z-10">
+                <div class="absolute bottom-2 right-5 z-10 mt-5 flex justify-end">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/geminis.png" alt="" class="opacity-30">
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="tarot-component rounded-lg p-4 pb-10 relative bg-[#F4F4F4]">
-                <span class="rounded-[18px] py-1 px-2 text-xs-b text-white bg-blue-50">Cáncer</span>
-                <p class="h-[180px] mt-2 text-s leading-[20px] text-gray-100 relative z-20">
+              <div class="tarot-component relative rounded-lg bg-[#F4F4F4] p-4 pb-10">
+                <span class="text-xs-b rounded-[18px] bg-blue-50 px-2 py-1 text-white">Cáncer</span>
+                <p class="text-s relative z-20 mt-2 h-[180px] leading-[20px] text-gray-100">
                   <span class="tarot-content">
                     Las redes sociales están llenas de soluciones para problemas
                     que no tenemos. O tal vez los tenemos, pero solo cuando nos
@@ -548,17 +548,17 @@ get_header();
                     preguntarnos si necesitamos tomar medidas para abordarlos.
                     ¡Las arrugas y los productos milagrosos milagrosos...
                   </span>
-                  <button class="tarot-toggler self-end text-xs-b text-blue-50">Mostrar todo</button>
+                  <button class="tarot-toggler text-xs-b self-end text-blue-50">Mostrar todo</button>
                 </p>
-                <div class="mt-5 flex justify-end absolute bottom-2 right-5 z-10">
+                <div class="absolute bottom-2 right-5 z-10 mt-5 flex justify-end">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/cancer.png" alt="" class="opacity-30">
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="tarot-component rounded-lg p-4 pb-10 relative bg-[#F4F4F4]">
-                <span class="rounded-[18px] py-1 px-2 text-xs-b text-white bg-blue-50">Leo</span>
-                <p class="h-[180px] mt-2 text-s leading-[20px] text-gray-100 relative z-20">
+              <div class="tarot-component relative rounded-lg bg-[#F4F4F4] p-4 pb-10">
+                <span class="text-xs-b rounded-[18px] bg-blue-50 px-2 py-1 text-white">Leo</span>
+                <p class="text-s relative z-20 mt-2 h-[180px] leading-[20px] text-gray-100">
                   <span class="tarot-content">
                     Las redes sociales están llenas de soluciones para problemas
                     que no tenemos. O tal vez los tenemos, pero solo cuando nos
@@ -566,17 +566,17 @@ get_header();
                     preguntarnos si necesitamos tomar medidas para abordarlos.
                     ¡Las arrugas y los productos milagrosos milagrosos...
                   </span>
-                  <button class="tarot-toggler self-end text-xs-b text-blue-50">Mostrar todo</button>
+                  <button class="tarot-toggler text-xs-b self-end text-blue-50">Mostrar todo</button>
                 </p>
-                <div class="mt-5 flex justify-end absolute bottom-2 right-5 z-10">
+                <div class="absolute bottom-2 right-5 z-10 mt-5 flex justify-end">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/leo.png" alt="" class="opacity-30">
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="tarot-component rounded-lg p-4 pb-10 relative bg-[#F4F4F4]">
-                <span class="rounded-[18px] py-1 px-2 text-xs-b text-white bg-blue-50">Virgo</span>
-                <p class="h-[180px] mt-2 text-s leading-[20px] text-gray-100 relative z-20">
+              <div class="tarot-component relative rounded-lg bg-[#F4F4F4] p-4 pb-10">
+                <span class="text-xs-b rounded-[18px] bg-blue-50 px-2 py-1 text-white">Virgo</span>
+                <p class="text-s relative z-20 mt-2 h-[180px] leading-[20px] text-gray-100">
                   <span class="tarot-content">
                     Las redes sociales están llenas de soluciones para problemas
                     que no tenemos. O tal vez los tenemos, pero solo cuando nos
@@ -584,17 +584,17 @@ get_header();
                     preguntarnos si necesitamos tomar medidas para abordarlos.
                     ¡Las arrugas y los productos milagrosos milagrosos...
                   </span>
-                  <button class="tarot-toggler self-end text-xs-b text-blue-50">Mostrar todo</button>
+                  <button class="tarot-toggler text-xs-b self-end text-blue-50">Mostrar todo</button>
                 </p>
-                <div class="mt-5 flex justify-end absolute bottom-2 right-5 z-10">
+                <div class="absolute bottom-2 right-5 z-10 mt-5 flex justify-end">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/virgo.png" alt="" class="opacity-30">
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="tarot-component rounded-lg p-4 pb-10 relative bg-[#F4F4F4]">
-                <span class="rounded-[18px] py-1 px-2 text-xs-b text-white bg-blue-50">Libra</span>
-                <p class="h-[180px] mt-2 text-s leading-[20px] text-gray-100 relative z-20">
+              <div class="tarot-component relative rounded-lg bg-[#F4F4F4] p-4 pb-10">
+                <span class="text-xs-b rounded-[18px] bg-blue-50 px-2 py-1 text-white">Libra</span>
+                <p class="text-s relative z-20 mt-2 h-[180px] leading-[20px] text-gray-100">
                   <span class="tarot-content">
                     Las redes sociales están llenas de soluciones para problemas
                     que no tenemos. O tal vez los tenemos, pero solo cuando nos
@@ -602,17 +602,17 @@ get_header();
                     preguntarnos si necesitamos tomar medidas para abordarlos.
                     ¡Las arrugas y los productos milagrosos milagrosos...
                   </span>
-                  <button class="tarot-toggler self-end text-xs-b text-blue-50">Mostrar todo</button>
+                  <button class="tarot-toggler text-xs-b self-end text-blue-50">Mostrar todo</button>
                 </p>
-                <div class="mt-5 flex justify-end absolute bottom-2 right-5 z-10">
+                <div class="absolute bottom-2 right-5 z-10 mt-5 flex justify-end">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/libra.png" alt="" class="opacity-30">
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="tarot-component rounded-lg p-4 pb-10 relative bg-[#F4F4F4]">
-                <span class="rounded-[18px] py-1 px-2 text-xs-b text-white bg-blue-50">Sagitario</span>
-                <p class="h-[180px] mt-2 text-s leading-[20px] text-gray-100 relative z-20">
+              <div class="tarot-component relative rounded-lg bg-[#F4F4F4] p-4 pb-10">
+                <span class="text-xs-b rounded-[18px] bg-blue-50 px-2 py-1 text-white">Sagitario</span>
+                <p class="text-s relative z-20 mt-2 h-[180px] leading-[20px] text-gray-100">
                   <span class="tarot-content">
                     Las redes sociales están llenas de soluciones para problemas
                     que no tenemos. O tal vez los tenemos, pero solo cuando nos
@@ -620,17 +620,17 @@ get_header();
                     preguntarnos si necesitamos tomar medidas para abordarlos.
                     ¡Las arrugas y los productos milagrosos milagrosos...
                   </span>
-                  <button class="tarot-toggler self-end text-xs-b text-blue-50">Mostrar todo</button>
+                  <button class="tarot-toggler text-xs-b self-end text-blue-50">Mostrar todo</button>
                 </p>
-                <div class="mt-5 flex justify-end absolute bottom-2 right-5 z-10">
+                <div class="absolute bottom-2 right-5 z-10 mt-5 flex justify-end">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/sagitario.png" alt="" class="opacity-30">
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="tarot-component rounded-lg p-4 pb-10 relative bg-[#F4F4F4]">
-                <span class="rounded-[18px] py-1 px-2 text-xs-b text-white bg-blue-50">Capricornio</span>
-                <p class="h-[180px] mt-2 text-s leading-[20px] text-gray-100 relative z-20">
+              <div class="tarot-component relative rounded-lg bg-[#F4F4F4] p-4 pb-10">
+                <span class="text-xs-b rounded-[18px] bg-blue-50 px-2 py-1 text-white">Capricornio</span>
+                <p class="text-s relative z-20 mt-2 h-[180px] leading-[20px] text-gray-100">
                   <span class="tarot-content">
                     Las redes sociales están llenas de soluciones para problemas
                     que no tenemos. O tal vez los tenemos, pero solo cuando nos
@@ -638,17 +638,17 @@ get_header();
                     preguntarnos si necesitamos tomar medidas para abordarlos.
                     ¡Las arrugas y los productos milagrosos milagrosos...
                   </span>
-                  <button class="tarot-toggler self-end text-xs-b text-blue-50">Mostrar todo</button>
+                  <button class="tarot-toggler text-xs-b self-end text-blue-50">Mostrar todo</button>
                 </p>
-                <div class="mt-5 flex justify-end absolute bottom-2 right-5 z-10">
+                <div class="absolute bottom-2 right-5 z-10 mt-5 flex justify-end">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/capricornio.png" alt="" class="opacity-30">
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="tarot-component rounded-lg p-4 pb-10 relative bg-[#F4F4F4]">
-                <span class="rounded-[18px] py-1 px-2 text-xs-b text-white bg-blue-50">Acuario</span>
-                <p class="h-[180px] mt-2 text-s leading-[20px] text-gray-100 relative z-20">
+              <div class="tarot-component relative rounded-lg bg-[#F4F4F4] p-4 pb-10">
+                <span class="text-xs-b rounded-[18px] bg-blue-50 px-2 py-1 text-white">Acuario</span>
+                <p class="text-s relative z-20 mt-2 h-[180px] leading-[20px] text-gray-100">
                   <span class="tarot-content">
                     Las redes sociales están llenas de soluciones para problemas
                     que no tenemos. O tal vez los tenemos, pero solo cuando nos
@@ -656,17 +656,17 @@ get_header();
                     preguntarnos si necesitamos tomar medidas para abordarlos.
                     ¡Las arrugas y los productos milagrosos milagrosos...
                   </span>
-                  <button class="tarot-toggler self-end text-xs-b text-blue-50">Mostrar todo</button>
+                  <button class="tarot-toggler text-xs-b self-end text-blue-50">Mostrar todo</button>
                 </p>
-                <div class="mt-5 flex justify-end absolute bottom-2 right-5 z-10">
+                <div class="absolute bottom-2 right-5 z-10 mt-5 flex justify-end">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/acuario.png" alt="" class="opacity-30">
                 </div>
               </div>
             </div>
             <div class="swiper-slide">
-              <div class="tarot-component rounded-lg p-4 pb-10 relative bg-[#F4F4F4]">
-                <span class="rounded-[18px] py-1 px-2 text-xs-b text-white bg-blue-50">Piscis</span>
-                <p class="h-[180px] mt-2 text-s leading-[20px] text-gray-100 relative z-20">
+              <div class="tarot-component relative rounded-lg bg-[#F4F4F4] p-4 pb-10">
+                <span class="text-xs-b rounded-[18px] bg-blue-50 px-2 py-1 text-white">Piscis</span>
+                <p class="text-s relative z-20 mt-2 h-[180px] leading-[20px] text-gray-100">
                   <span class="tarot-content">
                     Las redes sociales están llenas de soluciones para problemas
                     que no tenemos. O tal vez los tenemos, pero solo cuando nos
@@ -674,9 +674,9 @@ get_header();
                     preguntarnos si necesitamos tomar medidas para abordarlos.
                     ¡Las arrugas y los productos milagrosos milagrosos...
                   </span>
-                  <button class="tarot-toggler self-end text-xs-b text-blue-50">Mostrar todo</button>
+                  <button class="tarot-toggler text-xs-b self-end text-blue-50">Mostrar todo</button>
                 </p>
-                <div class="mt-5 flex justify-end absolute bottom-2 right-5 z-10">
+                <div class="absolute bottom-2 right-5 z-10 mt-5 flex justify-end">
                   <img src="<?php echo get_template_directory_uri(); ?>/images/piscis.png" alt="" class="opacity-30">
                 </div>
               </div>
@@ -684,8 +684,8 @@ get_header();
           </div>
         </div>
 
-        <div class="w-full mt-6 flex justify-center">
-          <div class="rounded-2xl !w-[114px] flex flex-row items-center justify-center px-2 py-1 bg-[#F1F1F1] swiper-pagination-fraction swiper-pagination-horizontal">
+        <div class="mt-6 flex w-full justify-center">
+          <div class="swiper-pagination-fraction swiper-pagination-horizontal flex !w-[114px] flex-row items-center justify-center rounded-2xl bg-[#F1F1F1] px-2 py-1">
             <span class="tarot-swiper-button-prev">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-50" viewBox="0 0 320 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                 <path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z" />
