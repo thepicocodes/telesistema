@@ -69,9 +69,8 @@ get_header();
       </div>
     </section>
 
-    <section class="mt-10">
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-5">
-
+    <section class="mt-5">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-5">
         <a href="#" class="relative block w-full h-full bg-white">
           <article class="relative w-full h-[300px] bg-gradient-to-t from-overlay-100 to-overlay-0">
             <div class="py-2 px-4 absolute top-2.5 right-2.5 z-[2] ">
@@ -257,7 +256,7 @@ get_header();
             <div class="w-full h-full bg-[#D6CCFF]"></div>
           </div>
 
-          <div class="mt-8 flex flex-col gap-5">
+          <div class="mt-8 flex flex-col gap-2">
             <h3 class="text-m-b text-blue-900">Más visto</h3>
 
             <a href="/">
@@ -325,9 +324,8 @@ get_header();
       <div class="w-full h-full bg-[#D6CCFF]"></div>
     </div>
 
-
     <section>
-      <div class="mt-5 grid grid-cols-1 md:grid-cols-[1fr_300px] gap-5">
+      <div class="mt-5 grid grid-cols-1 md:grid-cols-[1fr_300px] gap-8">
         <a href="#" class="relative block w-full min-h-[300px] bg-white">
           <article class="relative w-full h-full bg-gradient-to-t from-overlay-100 to-overlay-0">
             <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="" class="absolute top-0 left-0 w-full h-full ">
@@ -372,8 +370,8 @@ get_header();
       </div>
     </section>
 
-    <section class="mt-10">
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-5">
+    <section class="mt-5">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
         <a href="#" class="relative block w-full h-full bg-white">
           <article class="relative w-full h-[300px] bg-gradient-to-t from-overlay-100 to-overlay-0">
@@ -441,7 +439,7 @@ get_header();
 
     <section class="mt-10">
       <h3 class="text-xl-b lg:text-h5 text-blue-telesistema">Clima</h3>
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-5 mt-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-5 mt-4">
         <div class="w-full max-w-[300px]">
           <div class="rounded-lg p-4 bg-blue-100">
             <h4 class="mb-2 text-body-b text-blue-900 text-center">The United Kingdom...</h4>

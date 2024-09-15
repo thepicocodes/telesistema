@@ -10,7 +10,7 @@
 
 ?>
 
-<footer class="mt-24 bg-blue-telesistema font-lato">
+<footer class="mt-[160px] bg-blue-telesistema font-lato">
 	<div class="px-10 pt-10">
 		<div class="w-full grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-10 text-white">
 			<a href="" class="block shrink-0">

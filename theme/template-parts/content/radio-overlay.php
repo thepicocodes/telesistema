@@ -2,7 +2,7 @@
 	<div class="py-24 px-12 <?php echo is_user_logged_in() ? 'pt-16' : 'top-0' ?>">
 		<div class="flex flex-row items-center justify-between">
 			<div class="flex flex-row items-center gap-6">
-				<img src="<?php echo get_template_directory_uri(); ?>/images/entn-logo.png" alt="" class="">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/img-13.png" alt="" class="">
 
 				<h5 class="text-xl-b lg:text-h5 text-gray-100">Esto no tiene nombre</h5>
 			</div>

@@ -64,7 +64,7 @@ get_header();
       <div class="mt-10 grid lg:grid-cols-[1fr_320px] gap-x-6">
         <div>
           <!-- all -->
-          <div class="section-item all grid md:grid-cols-2 mb-10 gap-y-6 gap-x-5 lg:justify-start">
+          <div class="section-item all grid md:grid-cols-2 mb-10 gap-1.5 lg:justify-start">
             <a href="#" class="group relative block w-full h-full bg-white">
               <article class="relative w-full h-[342px] bg-gradient-to-t from-overlay-100 to-overlay-0">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/img-06.png" alt="" class="absolute top-0 left-0 w-full h-full">
@@ -298,7 +298,7 @@ get_header();
         </a>
       </div>
 
-      <div class="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-5">
+      <div class="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-5">
         <div class="mt-4 md:mt-0 grid gap-x-2 gap-y-4">
           <a href="/">
             <article class="grid max-h-[140px] min-h-[140px] w-full grid-cols-[1fr_120px] overflow-hidden rounded-md border">
@@ -356,7 +356,7 @@ get_header();
         </div>
       </div>
 
-      <div class="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-5">
+      <div class="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-5">
         <a href="#" class="relative block w-full h-full bg-white">
           <article class="relative w-full h-[300px] bg-gradient-to-t from-overlay-100 to-overlay-0">
             <div class="py-2 px-4 absolute top-2.5 right-2.5 z-[2] ">

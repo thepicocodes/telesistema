@@ -26,6 +26,30 @@ const newsletter = document.getElementById('newsletter');
 const newsletterToggler = document.getElementById('newsletter-toggler');
 const newsletterModal = document.getElementById('newsletter-modal');
 
+document.querySelectorAll('.toggle-component').forEach(component => {
+  component.addEventListener('click', function () {
+    const icon = component.querySelector('.toggle-icon');
+    const text = component.querySelector('.toggle-text');
+
+    // Alternar rotación del ícono
+    if (icon.classList.contains('rotate-180')) {
+      icon.classList.remove('rotate-180');
+    } else {
+      icon.classList.add('rotate-180');
+    }
+
+    // Mostrar u ocultar el texto
+    if (text.classList.contains('hidden')) {
+      text.classList.remove('hidden');
+      text.classList.add('block');
+    } else {
+      text.classList.remove('block');
+      text.classList.add('hidden');
+    }
+  });
+});
+
+
 newsletter.onclick = function () {
   newsletterModal.classList.remove('hidden');
   newsletterModal.classList.add('block');
@@ -286,8 +310,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-
-
 // tarot
 new Swiper("#tarot-swiper", {
   slidesPerView: 3,
@@ -416,19 +438,20 @@ document.addEventListener("DOMContentLoaded", () => {
 const dropdownButton = document.getElementById('dropdownButton');
 const dropdownMenu = document.getElementById('dropdownMenu');
 
-// Toggle para abrir y cerrar el dropdown al hacer clic en el botón
 dropdownButton.addEventListener('click', function (event) {
   event.stopPropagation(); // Evitar que el clic se propague
   if (dropdownMenu.classList.contains('hidden')) {
-    dropdownMenu.classList.remove('hidden'); // Si está oculto, mostrar el menú
+    dropdownMenu.classList.remove('hidden');
   } else {
-    dropdownMenu.classList.add('hidden'); // Si está visible, ocultar el menú
+    dropdownMenu.classList.add('hidden');
   }
 });
 
-// Opcional: Cerrar el menú si se hace clic fuera
 window.addEventListener('click', function (event) {
   if (!dropdownButton.contains(event.target) && !dropdownMenu.contains(event.target)) {
-    dropdownMenu.classList.add('hidden'); // Cerrar el menú si el clic está fuera
+    dropdownMenu.classList.add('hidden');
   }
 });
+
+
+

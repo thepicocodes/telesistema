@@ -25,6 +25,8 @@ get_header();
     <section class="">
       <h5 class="text-xl lg:text-h5 text-blue-telesistema">Programación</h5>
 
+
+
       <div class="mt-4 grid grid-cols-1 md:grid-cols-[1fr_320px] gap-6">
         <div class="flex flex-col gap-y-6">
           <div class="w-full flex flex-row items-center justify-between mt-5">
@@ -40,117 +42,96 @@ get_header();
               <path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
             </svg>
           </div>
-          <div class="program-component rounded-lg border border-blue-100 flex flex-row items-center gap-4 p-4 pr-10 hover:bg-blue-100 hover:-m-[1px] hover:border-2 hover:border-blue-300">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/img-13.png" alt="" class="rounded-tl-md rounded-bl-md block w-24 h-24">
-            <div class="w-full flex flex-row items-center justify-between">
-              <div class="text-lightBlue-900">
-                <p class="text-body-b text-lightBlue-900">Esto no tiene nombre</p>
-                <p class="program-description hidden w-[40ch] text-s text-blue-900">
-                  Sorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a,
-                  mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.
+
+
+          <div class="toggle-component group rounded-lg border border-blue-100 flex flex-row items-center justify-between gap-4 p-4 pr-10 hover:bg-blue-100 hover:-m-[1px] hover:border-2 hover:border-blue-300">
+            <div class="flex items-center space-x-4">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/img-13.png" alt="" class="rounded-tl-md rounded-bl-md block w-24 h-24">
+
+              <div>
+                <h3 class="text-body-b text-blue-900">Esto no tiene nombre</h3>
+                <p class="toggle-text hidden w-[40ch] text-s text-blue-900">
+                  Sorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.
+                  Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.
                 </p>
               </div>
-              <div class="flex flex-col gap-y-1 text-end">
-                <span class="text-body-b">12:00 am - 1:00 pm</span>
-              </div>
+            </div>
+            <div class="flex items-center space-x-2">
+              <span class="text-gray-800 font-bold text-sm">12:00PM</span>
+              <button class="toggle-button text-gray-600">
+                <svg class="toggle-icon w-4 h-4 transform transition-transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
             </div>
           </div>
 
-          <div class="program-component rounded-lg border border-blue-100 flex flex-row items-center gap-4 p-4 pr-10 hover:bg-blue-100 hover:-m-[1px] hover:border-2 hover:border-blue-300">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/img-13.png" alt="" class="rounded-tl-md rounded-bl-md block w-24 h-24">
-            <div class="w-full flex flex-row items-center justify-between">
-              <div class="text-lightBlue-900">
-                <p class="text-body-b text-lightBlue-900">Esto no tiene nombre</p>
-                <p class="program-description hidden w-[40ch] text-s text-blue-900">
-                  Sorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a,
-                  mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.
+          <div class="toggle-component group rounded-lg border border-blue-100 flex flex-row items-center justify-between gap-4 p-4 pr-10 hover:bg-blue-100 hover:-m-[1px] hover:border-2 hover:border-blue-300">
+            <div class="flex items-center space-x-4">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/img-13.png" alt="" class="rounded-tl-md rounded-bl-md block w-24 h-24">
+
+              <div>
+                <h3 class="text-body-b text-blue-900">Esto no tiene nombre</h3>
+                <p class="toggle-text hidden w-[40ch] text-s text-blue-900">
+                  Sorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.
+                  Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.
                 </p>
               </div>
-              <div class="flex flex-col gap-y-1 text-end">
-                <span class="text-body-b">12:00 am - 1:00 pm</span>
-              </div>
+            </div>
+            <div class="flex items-center space-x-2">
+              <span class="text-gray-800 font-bold text-sm">12:00PM</span>
+              <button class="toggle-button text-gray-600">
+                <svg class="toggle-icon w-4 h-4 transform transition-transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
             </div>
           </div>
 
-          <div class="program-component rounded-lg border border-blue-100 flex flex-row items-center gap-4 p-4 pr-10 hover:bg-blue-100 hover:-m-[1px] hover:border-2 hover:border-blue-300">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/img-13.png" alt="" class="rounded-tl-md rounded-bl-md block w-24 h-24">
-            <div class="w-full flex flex-row items-center justify-between">
-              <div class="text-lightBlue-900">
-                <p class="text-body-b text-lightBlue-900">Esto no tiene nombre</p>
-                <p class="program-description hidden w-[40ch] text-s text-blue-900">
-                  Sorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a,
-                  mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.
+          <div class="toggle-component group rounded-lg border border-blue-100 flex flex-row items-center justify-between gap-4 p-4 pr-10 hover:bg-blue-100 hover:-m-[1px] hover:border-2 hover:border-blue-300">
+            <div class="flex items-center space-x-4">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/img-13.png" alt="" class="rounded-tl-md rounded-bl-md block w-24 h-24">
+
+              <div>
+                <h3 class="text-body-b text-blue-900">Esto no tiene nombre</h3>
+                <p class="toggle-text hidden w-[40ch] text-s text-blue-900">
+                  Sorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.
+                  Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.
                 </p>
               </div>
-              <div class="flex flex-col gap-y-1 text-end">
-                <span class="text-body-b">12:00 am - 1:00 pm</span>
-              </div>
+            </div>
+            <div class="flex items-center space-x-2">
+              <span class="text-gray-800 font-bold text-sm">12:00PM</span>
+              <button class="toggle-button text-gray-600">
+                <svg class="toggle-icon w-4 h-4 transform transition-transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
             </div>
           </div>
 
-          <div class="program-component rounded-lg border border-blue-100 flex flex-row items-center gap-4 p-4 pr-10 hover:bg-blue-100 hover:-m-[1px] hover:border-2 hover:border-blue-300">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/img-13.png" alt="" class="rounded-tl-md rounded-bl-md block w-24 h-24">
-            <div class="w-full flex flex-row items-center justify-between">
-              <div class="text-lightBlue-900">
-                <p class="text-body-b text-lightBlue-900">Esto no tiene nombre</p>
-                <p class="program-description hidden w-[40ch] text-s text-blue-900">
-                  Sorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a,
-                  mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.
+          <div class="toggle-component group rounded-lg border border-blue-100 flex flex-row items-center justify-between gap-4 p-4 pr-10 hover:bg-blue-100 hover:-m-[1px] hover:border-2 hover:border-blue-300">
+            <div class="flex items-center space-x-4">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/img-13.png" alt="" class="rounded-tl-md rounded-bl-md block w-24 h-24">
+
+              <div>
+                <h3 class="text-body-b text-blue-900">Esto no tiene nombre</h3>
+                <p class="toggle-text hidden w-[40ch] text-s text-blue-900">
+                  Sorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus.
+                  Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.
                 </p>
               </div>
-              <div class="flex flex-col gap-y-1 text-end">
-                <span class="text-body-b">12:00 am - 1:00 pm</span>
-              </div>
+            </div>
+            <div class="flex items-center space-x-2">
+              <span class="text-gray-800 font-bold text-sm">12:00PM</span>
+              <button class="toggle-button text-gray-600">
+                <svg class="toggle-icon w-4 h-4 transform transition-transform" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </button>
             </div>
           </div>
 
-          <div class="program-component rounded-lg border border-blue-100 flex flex-row items-center gap-4 p-4 pr-10 hover:bg-blue-100 hover:-m-[1px] hover:border-2 hover:border-blue-300">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/img-13.png" alt="" class="rounded-tl-md rounded-bl-md block w-24 h-24">
-            <div class="w-full flex flex-row items-center justify-between">
-              <div class="text-lightBlue-900">
-                <p class="text-body-b text-lightBlue-900">Esto no tiene nombre</p>
-                <p class="program-description hidden w-[40ch] text-s text-blue-900">
-                  Sorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a,
-                  mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.
-                </p>
-              </div>
-              <div class="flex flex-col gap-y-1 text-end">
-                <span class="text-body-b">12:00 am - 1:00 pm</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="program-component rounded-lg border border-blue-100 flex flex-row items-center gap-4 p-4 pr-10 hover:bg-blue-100 hover:-m-[1px] hover:border-2 hover:border-blue-300">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/img-13.png" alt="" class="rounded-tl-md rounded-bl-md block w-24 h-24">
-            <div class="w-full flex flex-row items-center justify-between">
-              <div class="text-lightBlue-900">
-                <p class="text-body-b text-lightBlue-900">Esto no tiene nombre</p>
-                <p class="program-description hidden w-[40ch] text-s text-blue-900">
-                  Sorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a,
-                  mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.
-                </p>
-              </div>
-              <div class="flex flex-col gap-y-1 text-end">
-                <span class="text-body-b">12:00 am - 1:00 pm</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="program-component rounded-lg border border-blue-100 flex flex-row items-center gap-4 p-4 pr-10 hover:bg-blue-100 hover:-m-[1px] hover:border-2 hover:border-blue-300">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/img-13.png" alt="" class="rounded-tl-md rounded-bl-md block w-24 h-24">
-            <div class="w-full flex flex-row items-center justify-between">
-              <div class="text-lightBlue-900">
-                <p class="text-body-b text-lightBlue-900">Esto no tiene nombre</p>
-                <p class="program-description hidden w-[40ch] text-s text-blue-900">
-                  Sorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a,
-                  mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.
-                </p>
-              </div>
-              <div class="flex flex-col gap-y-1 text-end">
-                <span class="text-body-b">12:00 am - 1:00 pm</span>
-              </div>
-            </div>
-          </div>
 
         </div>
 
@@ -176,7 +157,7 @@ get_header();
 
             <div class="rounded-lg flex flex-row justify-between items-center mt-2 py-2 px-4 bg-blue-100">
               <div class="text-s text-blue-900">Miércoles</div>
-              <img src="<?php echo get_template_directory_uri(); ?>/images/cloud.png" alt="US Flag" class="h-8">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/cloud.png" alt="US Flag" class="h-4">
               <div class="text-s-b">
                 <span class="mr-4 text-s-b text-brown-400">27° C</span>
                 <span class="text-s-b text-blue-600">18° C</span>
@@ -185,7 +166,7 @@ get_header();
 
             <div class="rounded-lg flex flex-row justify-between items-center mt-2 py-2 px-4 bg-blue-100">
               <div class="text-s text-blue-900">Miércoles</div>
-              <img src="<?php echo get_template_directory_uri(); ?>/images/cloud.png" alt="US Flag" class="h-8">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/cloud.png" alt="US Flag" class="h-4">
               <div class="text-s-b">
                 <span class="mr-4 text-s-b text-brown-400">27° C</span>
                 <span class="text-s-b text-blue-600">18° C</span>
@@ -194,7 +175,7 @@ get_header();
 
             <div class="rounded-lg flex flex-row justify-between items-center mt-2 py-2 px-4 bg-blue-100">
               <div class="text-s text-blue-900">Miércoles</div>
-              <img src="<?php echo get_template_directory_uri(); ?>/images/cloud.png" alt="US Flag" class="h-8">
+              <img src="<?php echo get_template_directory_uri(); ?>/images/cloud.png" alt="US Flag" class="h-4">
               <div class="text-s-b">
                 <span class="mr-4 text-s-b text-brown-400">27° C</span>
                 <span class="text-s-b text-blue-600">18° C</span>
@@ -205,7 +186,7 @@ get_header();
               <div class="flex flex-row items-center gap-x-2">
                 <h4 class="text-body-b text-blue-900">Punta Cana</h4>
                 <div class="mx-auto">
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/cloud.png" alt="US Flag" class="h-full">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/cloud.png" alt="US Flag" class="h-[34px]">
                 </div>
                 <div class="">
                   <p class="text-xl-b">28° C</p>
@@ -218,7 +199,7 @@ get_header();
               <div class="flex flex-row items-center gap-x-2">
                 <h4 class="text-body-b text-blue-900">Santiago</h4>
                 <div class="mx-auto">
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/cloud.png" alt="US Flag" class="h-full">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/cloud.png" alt="US Flag" class="h-[34px]">
                 </div>
                 <div class="">
                   <p class="text-xl-b">28° C</p>
@@ -231,7 +212,7 @@ get_header();
               <div class="flex flex-row items-center gap-x-2">
                 <h4 class="text-body-b text-blue-900">Samana</h4>
                 <div class="mx-auto">
-                  <img src="<?php echo get_template_directory_uri(); ?>/images/cloud.png" alt="US Flag" class="h-full">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/cloud.png" alt="US Flag" class="h-[34px]">
                 </div>
                 <div class="">
                   <p class="text-xl-b">28° C</p>
@@ -241,7 +222,8 @@ get_header();
             </div>
           </div>
           <div class="mt-10">
-            <div class="flex items-center border-b pb-2 mb-4">
+            <h3 class="text-xl-b text-blue-telesistema">Cambio de moneda</h3>
+            <div class="flex items-center border-b pb-2 mt-2 mb-4">
               <img src="<?php echo get_template_directory_uri(); ?>/images/usd.png" alt="US Flag" class="h-6 mr-2">
               <h2 class="text-body-b font-bold">US Dólar</h2>
             </div>

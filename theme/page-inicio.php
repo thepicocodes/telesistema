@@ -41,7 +41,7 @@ get_header();
     <!--  -->
 
     <section class="mx-auto mt-10 max-w-[960px]">
-      <div class="mt-5 grid grid-cols-1 gap-5 md:grid-cols-[1fr_300px]">
+      <div class="grid grid-cols-1 gap-5 md:grid-cols-[1fr_300px]">
         <a href="#" class="relative block h-[300px] w-full bg-white lg:h-[460px]">
           <article class="from-overlay-100 to-overlay-0 relative h-full w-full bg-gradient-to-t">
             <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="" class="absolute left-0 top-0 h-full w-full ">
@@ -158,7 +158,7 @@ get_header();
     </div>
     <!--  -->
 
-    <section class="mx-auto mt-8 max-w-[960px]">
+    <section class="mx-auto mt-10 max-w-[960px]">
       <div class="">
         <div class="mb-4 flex items-center justify-between">
           <h2 class="lg:text-h5 text-blue-telesistema text-xl-b">Información y Opinión</h2>
@@ -510,10 +510,10 @@ get_header();
 
     <section class="mx-auto mt-10 max-w-[960px]">
       <div class="flex items-center justify-between">
-        <h5 class="text-xl-b lg:text-h5 text-blue-telesistema">Noticias</h5>
-        <a href="" class="flex items-center gap-x-2 font-bold text-blue-50">
+        <h5 class="mt-5 text-xl-b lg:text-h5 text-blue-telesistema">Noticias</h5>
+        <a href="" class="text-m-b flex items-center gap-x-2 text-blue-50">
           Ver más
-          <svg xmlns="http://www.w3.org/2000/svg" class="fill-text-blue-50 h-4" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+          <svg xmlns="http://www.w3.org/2000/svg" class="fill-blue-50 h-4" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
             <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
           </svg>
         </a>
@@ -830,7 +830,7 @@ get_header();
 
     <!-- horoscopo -->
     <section class="mx-auto mt-10 max-w-[960px]">
-      <h3 class="text-xl-b lg:text-h5 text-blue-telesistema">Horóscopo del día</h3>
+      <h3 class="mt-5 text-xl-b lg:text-h5 text-blue-telesistema">Horóscopo del día</h3>
 
       <div id="tarot-swiper" class="swiper mt-6">
         <div class="swiper-wrapper">
